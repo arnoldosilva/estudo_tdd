@@ -1,0 +1,570 @@
+--------- beginning of main
+09-14 23:33:32.430  6698  6698 E Zygote  : isWhitelistProcess - Process is Whitelisted
+09-14 23:33:32.432  6698  6698 E Zygote  : accessInfo : 1
+09-14 23:33:32.443  6698  6698 I ilva.estudo_td: Late-enabling -Xcheck:jni
+--------- beginning of system
+09-14 23:33:32.646  6698  6698 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[br.com.arnoldosilva.estudo_tdd]: armeabi-v7a, null instrumentation[br.com.arnoldosilva.estudo_tdd.test]: null, null
+09-14 23:33:33.814  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:34.447  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:34.449  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:35.014  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:35.016  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:35.578  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:35.580  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:36.139  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:36.141  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:36.702  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:36.708  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:37.284  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:37.293  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:37.859  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:37.861  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:38.425  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:38.434  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:39.021  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:39.023  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:39.630  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:39.633  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:40.200  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:40.202  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:40.764  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:40.766  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:41.330  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:41.333  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:41.903  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:41.916  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:42.475  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:42.516  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:43.075  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:43.077  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:43.642  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:43.644  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:44.203  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:44.205  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:44.764  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:44.766  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:45.331  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:45.334  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:45.904  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:45.906  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:46.473  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:46.475  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:47.033  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:47.038  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:47.611  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:47.614  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:48.196  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:48.199  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:48.727  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:48.729  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:49.275  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:49.277  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:49.812  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:49.814  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:50.350  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:50.353  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:50.888  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:50.892  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:51.426  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:51.428  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:51.964  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:51.966  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:52.523  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:52.525  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:53.091  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:53.094  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:53.660  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:53.661  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:54.221  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:54.223  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:54.791  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:54.793  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:55.352  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:55.355  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:55.916  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:55.919  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:56.478  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:56.480  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:57.043  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:57.046  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:57.626  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:57.628  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:58.196  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:58.199  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:58.764  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:58.769  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:59.336  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:59.339  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:59.907  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:33:59.909  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:00.490  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:00.492  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:01.052  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:01.060  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:01.620  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:01.622  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:02.183  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:02.186  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:02.750  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:02.752  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:03.322  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:03.324  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:03.882  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:03.884  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:04.445  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:04.447  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:05.006  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:05.009  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:05.573  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:05.575  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:06.144  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:06.150  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:06.710  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:06.712  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:07.268  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:07.270  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:07.847  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:07.851  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:08.419  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:08.424  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:08.991  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:08.993  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:09.552  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:09.554  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:10.113  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:10.115  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:10.674  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:10.676  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:11.235  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:11.239  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:11.804  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:11.806  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:12.365  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:12.368  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:12.926  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:12.928  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:13.487  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:13.489  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:14.049  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:14.054  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:14.620  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:14.621  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:15.180  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:15.181  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:15.740  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:15.743  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:16.300  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:16.303  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:16.861  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:16.862  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:17.428  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:17.433  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:17.999  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:18.002  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:18.560  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:18.562  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:19.118  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:19.122  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:19.679  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:19.680  6698  6698 I ilva.estudo_td: Waiting for a blocking GC ClassLinker
+09-14 23:34:19.685  6698  6698 I ilva.estudo_td: WaitForGcToComplete blocked ClassLinker on HeapTrim for 5.149ms
+09-14 23:34:19.686  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:20.252  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:20.254  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:20.812  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:20.814  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:21.371  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:21.374  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:21.932  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:21.933  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:22.495  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:22.497  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:23.065  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:23.067  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:23.622  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:23.624  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:24.181  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:24.184  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:24.742  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:24.744  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:25.302  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:25.305  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:25.863  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:25.873  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:26.437  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:26.441  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:27.026  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:27.029  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:27.577  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:27.580  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:28.178  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:28.180  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:28.768  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:28.772  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:29.345  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:29.347  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:29.886  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:29.888  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:30.442  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:30.444  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:31.006  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:31.008  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:31.593  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:31.596  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:32.183  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:32.185  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:32.708  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:32.709  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:33.236  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:33.239  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:33.776  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:33.778  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:34.330  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:34.332  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:34.889  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:34.891  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:35.440  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:35.443  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:35.991  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:35.993  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:36.551  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:36.554  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:37.119  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:37.121  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:37.686  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:37.689  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:38.276  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:38.278  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:38.842  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:38.844  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:39.404  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:39.406  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:39.976  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:39.982  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:40.570  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:40.573  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:41.156  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:41.157  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:41.723  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:41.724  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:42.269  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:42.273  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:42.813  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:42.814  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:43.379  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:43.385  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:43.916  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:43.922  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:44.469  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:44.471  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:44.993  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:44.995  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:45.518  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:45.520  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:46.041  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:46.043  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:46.582  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:46.584  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:47.138  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:47.141  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:47.721  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:47.723  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:48.297  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:48.299  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:48.851  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:48.853  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:49.405  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:49.407  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:49.962  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:49.965  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:50.543  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:50.546  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:51.112  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:51.115  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:51.675  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:51.677  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:52.240  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:52.244  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:52.810  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:52.814  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:53.389  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:53.391  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:53.949  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:53.952  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:54.509  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:54.511  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:55.073  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:55.076  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:55.636  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:55.638  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:56.196  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:56.198  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:56.773  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:56.775  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:57.331  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:57.333  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:57.887  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:57.889  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:58.460  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:58.462  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:59.023  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:59.025  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:59.585  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:34:59.587  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:00.156  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:00.158  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:00.714  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:00.715  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:01.270  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:01.272  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:01.827  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:01.829  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:02.386  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:02.388  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:02.962  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:02.964  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:03.535  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:03.537  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:04.089  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:04.090  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:04.645  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:04.647  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:05.204  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:05.206  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:05.760  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:05.761  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:06.316  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:06.332  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:06.886  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:06.888  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:07.447  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:07.451  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:08.006  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:08.008  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:08.568  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:08.571  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:09.132  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:09.135  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:09.705  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:09.707  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:10.263  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:10.266  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:10.826  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:10.827  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:11.386  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:11.388  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:11.941  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:11.944  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:12.512  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:12.514  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:13.067  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:13.070  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:13.631  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:13.636  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:14.197  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:14.199  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:14.757  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:14.760  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:15.329  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:15.331  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:15.887  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:15.889  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:16.445  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:16.452  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:17.009  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:17.011  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:17.571  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:-2)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:453)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.createPackageInfo(java.lang.String) (ClassPathPackageInfoSource.java:93)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.access$000(android.test.ClassPathPackageInfoSource, java.lang.String) (ClassPathPackageInfoSource.java:37)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource$1.load(java.lang.String) (ClassPathPackageInfoSource.java:50)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Object android.test.ClassPathPackageInfoSource$1.load(java.lang.Object) (ClassPathPackageInfoSource.java:47)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Object android.test.SimpleCache.get(java.lang.Object) (SimpleCache.java:32)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages() (ClassPathPackageInfoSource.java:230)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(java.util.Set) (ClassPathPackageInfoSource.java:243)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive() (ClassPathPackageInfoSource.java:237)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(android.test.ClassPathPackageInfoSource$ClassPathPackageInfo) (ClassPathPackageInfoSource.java:214)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(java.lang.String) (ClassPathPackageInfoSource.java:77)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.List android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(java.lang.String) (TestGrouping.java:134)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.test.suitebuilder.TestGrouping.addPackagesRecursive(java.lang.String[]) (TestGrouping.java:110)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.suitebuilder.TestSuiteBuilder android.test.suitebuilder.TestSuiteBuilder.includePackages(java.lang.String[]) (TestSuiteBuilder.java:102)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.test.InstrumentationTestRunner.onCreate(android.os.Bundle) (InstrumentationTestRunner.java:377)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:6391)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread.access$1300(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:248)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1830)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.os.Looper.loop() (Looper.java:216)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7266)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:494)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:975)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk", zip file "/data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk!/lib/armeabi-v7a, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:-2)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:453)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.createPackageInfo(java.lang.String) (ClassPathPackageInfoSource.java:93)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.access$000(android.test.ClassPathPackageInfoSource, java.lang.String) (ClassPathPackageInfoSource.java:37)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource$1.load(java.lang.String) (ClassPathPackageInfoSource.java:50)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Object android.test.ClassPathPackageInfoSource$1.load(java.lang.Object) (ClassPathPackageInfoSource.java:47)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.lang.Object android.test.SimpleCache.get(java.lang.Object) (SimpleCache.java:32)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages() (ClassPathPackageInfoSource.java:230)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at void android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(java.util.Set) (ClassPathPackageInfoSource.java:243)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive() (ClassPathPackageInfoSource.java:237)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(android.test.ClassPathPackageInfoSource$ClassPathPackageInfo) (ClassPathPackageInfoSource.java:214)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.Set android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(java.lang.String) (ClassPathPackageInfoSource.java:77)
+09-14 23:35:17.580  6698  6698 I ilva.estudo_td:   at java.util.List android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(java.lang.String) (TestGrouping.java:134)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.test.suitebuilder.TestGrouping.addPackagesRecursive(java.lang.String[]) (TestGrouping.java:110)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at android.test.suitebuilder.TestSuiteBuilder android.test.suitebuilder.TestSuiteBuilder.includePackages(java.lang.String[]) (TestSuiteBuilder.java:102)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.test.InstrumentationTestRunner.onCreate(android.os.Bundle) (InstrumentationTestRunner.java:377)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:6391)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread.access$1300(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:248)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1830)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.os.Looper.loop() (Looper.java:216)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7266)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:494)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:975)
+09-14 23:35:17.581  6698  6698 I ilva.estudo_td: 
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: Cannot load class. Make sure it is in your apk. Class name: 'com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin'. Message: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.Class.classForName(Native Method)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.Class.forName(Class.java:453)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:93)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:37)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.SimpleCache.get(SimpleCache.java:32)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages(ClassPathPackageInfoSource.java:230)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfoSource.java:243)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:237)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(ClassPathPackageInfoSource.java:214)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:77)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:134)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:110)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:377)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6391)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.access$1300(ActivityThread.java:248)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1830)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.os.Looper.loop(Looper.java:216)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.main(ActivityThread.java:7266)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.reflect.Method.invoke(Native Method)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk", zip file "/data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk!/lib/armeabi-v7a, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:35:17.593  6698  6698 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: (Throwable with no stack trace)
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk", zip file "/data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk!/lib/armeabi-v7a, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: (Throwable with no stack trace)
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: 
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.FrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: (Throwable with no stack trace)
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk", zip file "/data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk!/lib/armeabi-v7a, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: (Throwable with no stack trace)
+09-14 23:35:17.596  6698  6698 I ilva.estudo_td: 
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: Cannot load class. Make sure it is in your apk. Class name: 'com.facebook.imagepipeline.stetho.FrescoStethoPlugin'. Message: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.Class.classForName(Native Method)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.Class.forName(Class.java:453)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:93)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:37)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.SimpleCache.get(SimpleCache.java:32)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages(ClassPathPackageInfoSource.java:230)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfoSource.java:243)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:237)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(ClassPathPackageInfoSource.java:214)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:77)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:134)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:110)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:377)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6391)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.access$1300(ActivityThread.java:248)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1830)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.os.Looper.loop(Looper.java:216)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.main(ActivityThread.java:7266)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.reflect.Method.invoke(Native Method)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk", zip file "/data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/lib/arm, /data/app/br.com.arnoldosilva.estudo_tdd.test-ZWtoGUYK4dBpRJFmrs_ksw==/base.apk!/lib/armeabi-v7a, /data/app/br.com.arnoldosilva.estudo_tdd-KeC9P8ukZyg7P-LhMg1e6A==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:35:17.612  6698  6698 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:35:17.612  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:18.171  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:18.173  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:18.733  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:18.735  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:19.292  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:19.294  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:19.852  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:19.854  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:20.409  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:20.411  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:20.972  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:20.977  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:21.546  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:21.548  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:22.102  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:22.104  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:22.669  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:22.671  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:23.237  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:23.239  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:23.795  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:23.796  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:24.352  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:24.354  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:24.916  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:24.931  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:25.501  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:25.505  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:26.064  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:26.072  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:26.627  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:26.630  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:27.185  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:27.187  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:27.743  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:27.745  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:28.305  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:28.307  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:28.874  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:28.876  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:29.432  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:29.435  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:29.990  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:29.992  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:30.547  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:30.548  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:35:31.105  6698  6698 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?

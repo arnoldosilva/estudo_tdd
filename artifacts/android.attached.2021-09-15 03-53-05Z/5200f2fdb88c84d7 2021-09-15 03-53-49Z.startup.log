@@ -1,0 +1,296 @@
+--------- beginning of main
+09-15 00:53:54.342  7378  7378 E Zygote  : isWhitelistProcess - Process is Whitelisted
+09-15 00:53:54.343  7378  7378 E Zygote  : accessInfo : 1
+09-15 00:53:54.355  7378  7378 I com.estudo_tdd: Late-enabling -Xcheck:jni
+--------- beginning of system
+09-15 00:53:54.725  7378  7378 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.estudo_tdd]: armeabi-v7a, null instrumentation[com.estudo_tdd.test]: null, null
+09-15 00:53:56.552  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:53:56.553  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:53:56.572  7378  7378 I MonitoringInstr: Instrumentation started!
+09-15 00:53:56.629  7378  7378 D SoLoader: init start
+09-15 00:53:56.631  7378  7378 D SoLoader: adding system library source: /vendor/lib
+09-15 00:53:56.632  7378  7378 D SoLoader: adding system library source: /system/lib
+09-15 00:53:56.633  7378  7378 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm flags = 0]
+09-15 00:53:56.638  7378  7378 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.estudo_tdd/lib-main flags = 1]
+09-15 00:53:56.638  7378  7378 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+09-15 00:53:56.639  7378  7378 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/vendor/lib flags = 2]
+09-15 00:53:56.639  7378  7378 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm flags = 0]
+09-15 00:53:56.639  7378  7378 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.estudo_tdd/lib-main flags = 1]
+09-15 00:53:56.641  7378  7378 V fb-UnpackingSoSource: locked dso store /data/user/0/com.estudo_tdd/lib-main
+09-15 00:53:56.645  7378  7378 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+09-15 00:53:56.645  7378  7378 V fb-UnpackingSoSource: so store dirty: regenerating
+09-15 00:53:56.904  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libbetter.so: deferring to libdir
+09-15 00:53:56.905  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libc++_shared.so: deferring to libdir
+09-15 00:53:56.905  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent-2.1.so: deferring to libdir
+09-15 00:53:56.905  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_core-2.1.so: deferring to libdir
+09-15 00:53:56.906  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_extra-2.1.so: deferring to libdir
+09-15 00:53:56.906  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfabricjni.so: deferring to libdir
+09-15 00:53:56.906  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfb.so: deferring to libdir
+09-15 00:53:56.907  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfbjni.so: deferring to libdir
+09-15 00:53:56.907  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libflipper.so: deferring to libdir
+09-15 00:53:56.907  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_futures.so: deferring to libdir
+09-15 00:53:56.908  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_json.so: deferring to libdir
+09-15 00:53:56.908  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog.so: deferring to libdir
+09-15 00:53:56.908  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog_init.so: deferring to libdir
+09-15 00:53:56.911  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-debug.so: deferring to libdir
+09-15 00:53:56.911  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-release.so: deferring to libdir
+09-15 00:53:56.911  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-debug.so: deferring to libdir
+09-15 00:53:56.912  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-release.so: deferring to libdir
+09-15 00:53:56.912  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-inspector.so: deferring to libdir
+09-15 00:53:56.912  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libimagepipeline.so: deferring to libdir
+09-15 00:53:56.913  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsc.so: deferring to libdir
+09-15 00:53:56.914  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjscexecutor.so: deferring to libdir
+09-15 00:53:56.914  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsijniprofiler.so: deferring to libdir
+09-15 00:53:56.914  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsinspector.so: deferring to libdir
+09-15 00:53:56.915  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libmapbufferjni.so: deferring to libdir
+09-15 00:53:56.916  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-filters.so: deferring to libdir
+09-15 00:53:56.916  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-imagetranscoder.so: deferring to libdir
+09-15 00:53:56.917  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_codegen_rncore.so: deferring to libdir
+09-15 00:53:56.917  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_debug.so: deferring to libdir
+09-15 00:53:56.917  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_nativemodule_core.so: deferring to libdir
+09-15 00:53:56.917  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_animations.so: deferring to libdir
+09-15 00:53:56.919  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_attributedstring.so: deferring to libdir
+09-15 00:53:56.920  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_componentregistry.so: deferring to libdir
+09-15 00:53:56.920  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_core.so: deferring to libdir
+09-15 00:53:56.920  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_debug.so: deferring to libdir
+09-15 00:53:56.920  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_graphics.so: deferring to libdir
+09-15 00:53:56.921  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_imagemanager.so: deferring to libdir
+09-15 00:53:56.921  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_leakchecker.so: deferring to libdir
+09-15 00:53:56.921  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mapbuffer.so: deferring to libdir
+09-15 00:53:56.923  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mounting.so: deferring to libdir
+09-15 00:53:56.923  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_runtimescheduler.so: deferring to libdir
+09-15 00:53:56.924  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_scheduler.so: deferring to libdir
+09-15 00:53:56.926  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_telemetry.so: deferring to libdir
+09-15 00:53:56.926  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_templateprocessor.so: deferring to libdir
+09-15 00:53:56.926  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_textlayoutmanager.so: deferring to libdir
+09-15 00:53:56.927  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_uimanager.so: deferring to libdir
+09-15 00:53:56.927  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_utils.so: deferring to libdir
+09-15 00:53:56.927  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactconfig.so: deferring to libdir
+09-15 00:53:56.927  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeblob.so: deferring to libdir
+09-15 00:53:56.928  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativejni.so: deferring to libdir
+09-15 00:53:56.928  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeutilsjni.so: deferring to libdir
+09-15 00:53:56.928  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactperfloggerjni.so: deferring to libdir
+09-15 00:53:56.928  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_image.so: deferring to libdir
+09-15 00:53:56.929  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_modal.so: deferring to libdir
+09-15 00:53:56.929  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_picker.so: deferring to libdir
+09-15 00:53:56.932  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_progressbar.so: deferring to libdir
+09-15 00:53:56.932  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_root.so: deferring to libdir
+09-15 00:53:56.933  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_scrollview.so: deferring to libdir
+09-15 00:53:56.933  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_slider.so: deferring to libdir
+09-15 00:53:56.933  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_switch.so: deferring to libdir
+09-15 00:53:56.933  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_text.so: deferring to libdir
+09-15 00:53:56.934  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_textinput.so: deferring to libdir
+09-15 00:53:56.934  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_unimplementedview.so: deferring to libdir
+09-15 00:53:56.934  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_view.so: deferring to libdir
+09-15 00:53:56.934  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libturbomodulejsijni.so: deferring to libdir
+09-15 00:53:56.935  7378  7378 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libyoga.so: deferring to libdir
+09-15 00:53:56.935  7378  7378 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:53:56.937  7378  7378 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:53:56.937  7378  7378 V fb-UnpackingSoSource: starting syncer worker
+09-15 00:53:56.947  7378  7378 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.estudo_tdd/lib-main (from syncer thread)
+09-15 00:53:56.947  7378  7378 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.estudo_tdd/lib-main (syncer thread started)
+09-15 00:53:56.948  7378  7378 D SoLoader: init finish: 4 SO sources prepared
+09-15 00:53:56.948  7378  7378 D SoLoader: init exiting
+09-15 00:53:56.983  7378  7378 D SoLoader: init exiting
+09-15 00:53:56.984  7378  7378 D SoLoader: About to load: libjscexecutor.so
+09-15 00:53:56.985  7378  7378 D SoLoader: libjscexecutor.so not found on /data/data/com.estudo_tdd/lib-main
+09-15 00:53:56.985  7378  7378 D SoLoader: libjscexecutor.so found on /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm
+09-15 00:53:56.985  7378  7378 D SoLoader: Not resolving dependencies for libjscexecutor.so
+09-15 00:53:57.055  7378  7378 D JavaScriptCore.Version: 250230.2.1
+09-15 00:53:57.056  7378  7378 D SoLoader: Loaded: libjscexecutor.so
+09-15 00:53:57.061  7378  7378 D SoLoader: init exiting
+09-15 00:53:57.413  7378  7378 W com.estudo_tdd: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (light greylist, reflection)
+09-15 00:53:57.413  7378  7378 W com.estudo_tdd: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setHostname(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:53:57.413  7378  7378 W com.estudo_tdd: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (light greylist, reflection)
+09-15 00:53:57.413  7378  7378 W com.estudo_tdd: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (light greylist, reflection)
+09-15 00:53:57.430  7378  7378 W com.estudo_tdd: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+09-15 00:53:57.430  7378  7378 W com.estudo_tdd: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:53:57.431  7378  7378 W com.estudo_tdd: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+09-15 00:53:57.434  7378  7378 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+09-15 00:53:57.465  7378  7378 D SensorManager: registerListener :: 0, K6DS3TR Accelerometer, 66667, 0,  
+09-15 00:53:57.493  7378  7439 D SoLoader: About to load: libfbjni.so
+09-15 00:53:57.493  7378  7439 D SoLoader: libfbjni.so not found on /data/data/com.estudo_tdd/lib-main
+09-15 00:53:57.494  7378  7439 D SoLoader: libfbjni.so found on /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm
+09-15 00:53:57.494  7378  7439 D SoLoader: Not resolving dependencies for libfbjni.so
+09-15 00:53:57.495  7378  7439 D SoLoader: Loaded: libfbjni.so
+09-15 00:53:57.496  7378  7439 D SoLoader: About to load: libflipper.so
+09-15 00:53:57.496  7378  7439 D SoLoader: libflipper.so not found on /data/data/com.estudo_tdd/lib-main
+09-15 00:53:57.497  7378  7439 D SoLoader: libflipper.so found on /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm
+09-15 00:53:57.497  7378  7439 D SoLoader: Not resolving dependencies for libflipper.so
+09-15 00:53:57.564  7378  7439 D SoLoader: Loaded: libflipper.so
+09-15 00:53:57.606  7378  7442 D NetworkManagementSocketTagger: tagSocket(68) with statsTag=0xffffffff, statsUid=-1
+09-15 00:53:57.606  7378  7441 D NetworkManagementSocketTagger: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+09-15 00:53:57.652  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (light greylist, reflection)
+09-15 00:53:57.652  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (light greylist, reflection)
+09-15 00:53:57.652  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (light greylist, reflection)
+09-15 00:53:57.678  7378  7378 I flipper : flipper: FlipperClient::addPlugin Inspector
+09-15 00:53:57.678  7378  7378 I flipper : flipper: FlipperClient::addPlugin React
+09-15 00:53:57.684  7378  7378 I flipper : flipper: FlipperClient::addPlugin Databases
+09-15 00:53:57.687  7378  7378 I flipper : flipper: FlipperClient::addPlugin Preferences
+09-15 00:53:57.688  7378  7378 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+09-15 00:53:57.696  7378  7378 I flipper : flipper: FlipperClient::addPlugin Network
+09-15 00:53:57.719  7378  7378 I MonitoringInstr: No JSBridge.
+09-15 00:53:57.766  7378  7433 I UsageTrackerFacilitator: Usage tracking enabled
+09-15 00:53:57.777  7378  7433 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/com.estudo_tdd.test-J-Y09iwv2TSMEVZffNj6rQ==/base.apk]
+09-15 00:53:57.784  7378  7433 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-15 00:53:58.412  7378  7433 I com.estudo_tdd: Waiting for a blocking GC ClassLinker
+09-15 00:53:58.428  7378  7433 I com.estudo_tdd: WaitForGcToComplete blocked ClassLinker on ClassLinker for 15.837ms
+09-15 00:53:58.682  7378  7442 D SoLoader: About to load: libreactnativejni.so
+09-15 00:53:58.683  7378  7442 D SoLoader: libreactnativejni.so not found on /data/data/com.estudo_tdd/lib-main
+09-15 00:53:58.683  7378  7442 D SoLoader: libreactnativejni.so found on /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm
+09-15 00:53:58.683  7378  7442 D SoLoader: Not resolving dependencies for libreactnativejni.so
+09-15 00:53:58.687  7378  7442 D SoLoader: Loaded: libreactnativejni.so
+09-15 00:54:01.058  7378  7433 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+09-15 00:54:01.058  7378  7433 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+09-15 00:54:01.059  7378  7433 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+09-15 00:54:01.063  7378  7433 I TestRunner: run started: 1 tests
+09-15 00:54:01.076  7378  7433 I TestRunner: started: runDetoxTests(com.estudo_tdd.DetoxTest)
+09-15 00:54:01.143  7378  7433 D EventInjectionStrategy: Creating injection strategy with input manager.
+09-15 00:54:01.144  7378  7433 W com.estudo_tdd: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (light greylist, reflection)
+09-15 00:54:01.145  7378  7433 W com.estudo_tdd: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (light greylist, reflection)
+09-15 00:54:01.146  7378  7433 W com.estudo_tdd: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (light greylist, reflection)
+09-15 00:54:01.194  7378  7433 W com.estudo_tdd: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (light greylist, reflection)
+09-15 00:54:01.357  7378  7378 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@97c5c69
+09-15 00:54:01.593  7378  7378 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: PRE_ON_CREATE
+09-15 00:54:01.610  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+09-15 00:54:01.610  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+09-15 00:54:01.610  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+09-15 00:54:01.610  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+09-15 00:54:01.610  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+09-15 00:54:01.663  7378  7497 D NetworkManagementSocketTagger: tagSocket(80) with statsTag=0xffffffff, statsUid=-1
+09-15 00:54:01.671  7378  7378 I MultiWindowDecorSupport: updateCaptionType >> DecorView@ce68420[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+09-15 00:54:01.671  7378  7378 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@ce68420[]
+09-15 00:54:01.743  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+09-15 00:54:01.746  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+09-15 00:54:01.756  7378  7378 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: CREATED
+09-15 00:54:01.771  7378  7378 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: STARTED
+09-15 00:54:01.775  7378  7378 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: RESUMED
+09-15 00:54:01.778  7378  7378 D OpenGLRenderer: Skia GL Pipeline
+09-15 00:54:01.788  7378  7378 D EmergencyMode: [EmergencyManager] android createPackageContext successful
+09-15 00:54:01.816  7378  7378 D InputTransport: Input channel constructed: fd=85
+09-15 00:54:01.818  7378  7378 D ViewRootImpl@4615a02[MainActivity]: setView = DecorView@ce68420[MainActivity] TM=false MM=false
+09-15 00:54:01.841  7378  7378 W unknown:ReactNative: Packager connection already open, nooping.
+09-15 00:54:01.876  7378  7378 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x6 surface={true 3472881664} changed=true
+09-15 00:54:01.939  7378  7500 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-15 00:54:01.939  7378  7500 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+09-15 00:54:01.940  7378  7500 I OpenGLRenderer: Initialized EGL, version 1.4
+09-15 00:54:01.940  7378  7500 D OpenGLRenderer: Swap behavior 2
+09-15 00:54:01.971  7378  7500 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:54:01.971  7378  7500 D OpenGLRenderer: eglCreateWindowSurface = 0xe1ad2b60, 0xcefff808
+09-15 00:54:01.980  7378  7500 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-15 00:54:02.099  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic; (light greylist, linking)
+09-15 00:54:02.132  7378  7378 D InputTransport: Input channel constructed: fd=97
+09-15 00:54:02.133  7378  7378 D ViewRootImpl@ccc275a[PopupWindow:b6f996f]: setView = android.widget.PopupWindow$PopupDecorView{865d8b V.E...... R.....I. 0,0-0,0} TM=false MM=false
+09-15 00:54:02.135  7378  7378 D ViewRootImpl@4615a02[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:54:02.136  7378  7378 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:54:02.136  7378  7378 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:54:02.136  7378  7378 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:54:02.139  7378  7378 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:54:02.139  7378  7378 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:54:02.139  7378  7378 V InputMethodManager: Starting input: tba=com.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:54:02.139  7378  7378 D InputMethodManager: startInputInner - Id : 0
+09-15 00:54:02.139  7378  7378 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:54:02.149  7378  7402 D InputTransport: Input channel constructed: fd=98
+09-15 00:54:02.177  7378  7378 D ViewRootImpl@ccc275a[PopupWindow:b6f996f]: Relayout returned: old=[0,48][720,1280] new=[0,48][720,101] result=0x6 surface={true 3472650240} changed=true
+09-15 00:54:02.180  7378  7500 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x53]-format:1
+09-15 00:54:02.180  7378  7500 D OpenGLRenderer: eglCreateWindowSurface = 0xe1ad30a0, 0xcefc7008
+09-15 00:54:02.239  7378  7378 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:54:02.239  7378  7378 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:54:02.240  7378  7378 V InputMethodManager: Starting input: tba=com.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:54:02.240  7378  7378 D InputMethodManager: startInputInner - Id : 0
+09-15 00:54:02.244  7378  7378 D ViewRootImpl@ccc275a[PopupWindow:b6f996f]: MSG_RESIZED: frame=[0,48][720,101] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:54:02.285  7378  7433 I Detox   : Detox server connection details: url=ws://localhost:8099, sessionId=test
+09-15 00:54:02.300  7378  7515 I DetoxDispatcher: Handling action '_init' (ID #0)...
+09-15 00:54:02.300  7378  7515 I Detox   : Connecting to server...
+09-15 00:54:02.300  7378  7515 I DetoxWSClient: At connectToServer
+09-15 00:54:02.315  7378  7517 D NetworkManagementSocketTagger: tagSocket(108) with statsTag=0xffffffff, statsUid=-1
+09-15 00:54:02.330  7378  7517 D DetoxWSClient: At onOpen
+09-15 00:54:02.331  7378  7517 I DetoxWSClient: Sending out action 'login' (ID #0)
+09-15 00:54:02.332  7378  7517 I Detox   : Connected to server!
+09-15 00:54:02.341  7378  7517 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+09-15 00:54:02.347  7378  7500 W libEGL  : EGLNativeWindowType 0xcefc7008 disconnect failed
+09-15 00:54:02.347  7378  7500 D OpenGLRenderer: eglDestroySurface = 0xe1ad30a0, 0xcefc7000
+09-15 00:54:02.348  7378  7378 D ViewRootImpl@ccc275a[PopupWindow:b6f996f]: dispatchDetachedFromWindow
+09-15 00:54:02.353  7378  7378 D InputTransport: Input channel destroyed: fd=97
+09-15 00:54:02.379  7378  7517 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+09-15 00:54:02.521  7378  7378 W unknown:ReactNative: Packager connection already open, nooping.
+09-15 00:54:02.648  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+09-15 00:54:02.671  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+09-15 00:54:02.690  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+09-15 00:54:02.696  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+09-15 00:54:02.702  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+09-15 00:54:02.717  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+09-15 00:54:02.721  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+09-15 00:54:02.727  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+09-15 00:54:02.733  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+09-15 00:54:02.746  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+09-15 00:54:02.754  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+09-15 00:54:02.757  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+09-15 00:54:02.765  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+09-15 00:54:02.768  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+09-15 00:54:02.775  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+09-15 00:54:02.775  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+09-15 00:54:02.782  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+09-15 00:54:02.791  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+09-15 00:54:02.795  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+09-15 00:54:02.797  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+09-15 00:54:02.798  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+09-15 00:54:02.800  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+09-15 00:54:02.816  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+09-15 00:54:02.828  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+09-15 00:54:02.836  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+09-15 00:54:02.840  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+09-15 00:54:02.851  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+09-15 00:54:02.852  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+09-15 00:54:02.856  7378  7522 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+09-15 00:54:02.892  7378  7522 D SoLoader: About to load: libyoga.so
+09-15 00:54:02.893  7378  7522 D SoLoader: libyoga.so not found on /data/data/com.estudo_tdd/lib-main
+09-15 00:54:02.893  7378  7522 D SoLoader: libyoga.so found on /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm
+09-15 00:54:02.893  7378  7522 D SoLoader: Not resolving dependencies for libyoga.so
+09-15 00:54:02.896  7378  7522 D SoLoader: Loaded: libyoga.so
+09-15 00:54:02.910  7378  7378 I DetoxRNLoading: Got new RN-context async'ly through listener
+09-15 00:54:02.912  7378  7515 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+09-15 00:54:02.941  7378  7515 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+09-15 00:54:02.942  7378  7515 D DetoxRNHelpers: Native RN module resolution (class com.reactnativecommunity.asyncstorage.AsyncStorageModule): no such class
+09-15 00:54:02.942  7378  7515 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+09-15 00:54:02.946  7378  7515 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+09-15 00:54:02.953  7378  7378 D AsyncStorageIRLegacy: Async-storage is busy!
+09-15 00:54:02.967  7378  7515 I DetoxDispatcher: Done with action '_init'
+09-15 00:54:02.967  7378  7515 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+09-15 00:54:02.978  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (light greylist, reflection)
+09-15 00:54:02.978  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (light greylist, reflection)
+09-15 00:54:02.979  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (light greylist, reflection)
+09-15 00:54:03.014  7378  7522 I flipper : flipper: FlipperClient::addPlugin Fresco
+09-15 00:54:03.180  7378  7521 D SoLoader: About to load: libreactnativeblob.so
+09-15 00:54:03.180  7378  7521 D SoLoader: libreactnativeblob.so not found on /data/data/com.estudo_tdd/lib-main
+09-15 00:54:03.181  7378  7521 D SoLoader: libreactnativeblob.so found on /data/app/com.estudo_tdd-zkJT92ZXo17cqGFHbbi0aA==/lib/arm
+09-15 00:54:03.181  7378  7521 D SoLoader: Not resolving dependencies for libreactnativeblob.so
+09-15 00:54:03.184  7378  7521 D SoLoader: Loaded: libreactnativeblob.so
+09-15 00:54:03.256  7378  7522 I WebViewFactory: Loading com.android.chrome version 93.0.4577.62 (code 457706220)
+09-15 00:54:03.372  7378  7522 W com.estudo_tdd: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+09-15 00:54:03.372  7378  7522 W com.estudo_tdd: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (light greylist, reflection)
+09-15 00:54:03.372  7378  7522 W com.estudo_tdd: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (light greylist, reflection)
+09-15 00:54:03.372  7378  7522 W com.estudo_tdd: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+09-15 00:54:03.372  7378  7522 W com.estudo_tdd: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+09-15 00:54:03.382  7378  7522 I cr_WVCFactoryProvider: Loaded version=93.0.4577.62 minSdkVersion=24 isBundle=true multiprocess=true packageId=2
+09-15 00:54:03.464  7378  7522 I cr_LibraryLoader: Successfully loaded native library
+09-15 00:54:03.468  7378  7522 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms.
+09-15 00:54:03.570  7378  7554 D NetworkManagementSocketTagger: tagSocket(119) with statsTag=0xffffffff, statsUid=-1
+09-15 00:54:03.616  7378  7558 W com.estudo_tdd: Accessing hidden field Ljava/nio/Buffer;->address:J (light greylist, reflection)
+09-15 00:54:03.744  7378  7521 I ReactNativeJS: Running "estudo_tdd" with {"rootTag":1}
+09-15 00:54:03.752  7378  7565 D NetworkManagementSocketTagger: tagSocket(110) with statsTag=0xffffffff, statsUid=-1
+09-15 00:54:03.946  7378  7378 W com.estudo_tdd: Accessing hidden method Landroid/text/SpannableStringInternal;->length()I (light greylist, linking)
+09-15 00:54:03.951  7378  7378 W com.estudo_tdd: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+09-15 00:54:04.025  7378  7378 I Detox   : UIManagerModule is busy
+09-15 00:54:04.129  7378  7378 D IdlingResourceRegistry: All idling resources are idle.
+09-15 00:54:04.131  7378  7378 I Detox   : Wait is over: app is now idle!
+09-15 00:54:04.132  7378  7515 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+09-15 00:54:04.133  7378  7515 I DetoxDispatcher: Done with action 'isReady'
+09-15 00:54:04.133  7378  7515 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+09-15 00:54:04.133  7378  7515 I DetoxDispatcher: Done with action 'loginSuccess'
+09-15 00:54:04.134  7378  7515 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+09-15 00:54:04.143  7378  7378 D IdlingResourceRegistry: All idling resources are idle.
+09-15 00:54:04.153  7378  7378 D IdlingResourceRegistry: All idling resources are idle.
+09-15 00:54:04.153  7378  7378 I Detox   : Wait is over: app is now idle!
+09-15 00:54:04.154  7378  7515 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+09-15 00:54:04.155  7378  7515 I DetoxDispatcher: Done with action 'isReady'

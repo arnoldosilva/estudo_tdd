@@ -1,0 +1,360 @@
+--------- beginning of main
+09-15 00:36:46.240 27938 27938 E Zygote  : isWhitelistProcess - Process is Whitelisted
+09-15 00:36:46.240 27938 27938 E Zygote  : accessInfo : 1
+09-15 00:36:46.255 27938 27938 I ilva.estudo_td: Late-enabling -Xcheck:jni
+--------- beginning of system
+09-15 00:36:46.514 27938 27938 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[br.com.arnoldosilva.estudo_tdd]: armeabi-v7a, null instrumentation[br.com.arnoldosilva.estudo_tdd.test]: null, null
+09-15 00:36:48.403 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:36:48.403 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:36:48.420 27938 27938 I MonitoringInstr: Instrumentation started!
+09-15 00:36:48.471 27938 27938 D SoLoader: init start
+09-15 00:36:48.473 27938 27938 D SoLoader: adding system library source: /vendor/lib
+09-15 00:36:48.475 27938 27938 D SoLoader: adding system library source: /system/lib
+09-15 00:36:48.476 27938 27938 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/br.com.arnoldosilva.estudo_tdd-pPt1DbuTAsM6QsXPTMAFvw==/lib/arm flags = 0]
+09-15 00:36:48.481 27938 27938 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/br.com.arnoldosilva.estudo_tdd/lib-main flags = 1]
+09-15 00:36:48.481 27938 27938 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+09-15 00:36:48.481 27938 27938 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/vendor/lib flags = 2]
+09-15 00:36:48.482 27938 27938 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/br.com.arnoldosilva.estudo_tdd-pPt1DbuTAsM6QsXPTMAFvw==/lib/arm flags = 0]
+09-15 00:36:48.482 27938 27938 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/br.com.arnoldosilva.estudo_tdd/lib-main flags = 1]
+09-15 00:36:48.484 27938 27938 V fb-UnpackingSoSource: locked dso store /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:36:48.489 27938 27938 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+09-15 00:36:48.489 27938 27938 V fb-UnpackingSoSource: so store dirty: regenerating
+09-15 00:36:48.726 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libbetter.so: deferring to libdir
+09-15 00:36:48.727 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libc++_shared.so: deferring to libdir
+09-15 00:36:48.727 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent-2.1.so: deferring to libdir
+09-15 00:36:48.727 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_core-2.1.so: deferring to libdir
+09-15 00:36:48.727 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_extra-2.1.so: deferring to libdir
+09-15 00:36:48.728 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfabricjni.so: deferring to libdir
+09-15 00:36:48.728 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfb.so: deferring to libdir
+09-15 00:36:48.728 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfbjni.so: deferring to libdir
+09-15 00:36:48.729 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libflipper.so: deferring to libdir
+09-15 00:36:48.729 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_futures.so: deferring to libdir
+09-15 00:36:48.729 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_json.so: deferring to libdir
+09-15 00:36:48.730 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog.so: deferring to libdir
+09-15 00:36:48.730 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog_init.so: deferring to libdir
+09-15 00:36:48.730 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-debug.so: deferring to libdir
+09-15 00:36:48.730 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-release.so: deferring to libdir
+09-15 00:36:48.731 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-debug.so: deferring to libdir
+09-15 00:36:48.731 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-release.so: deferring to libdir
+09-15 00:36:48.731 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-inspector.so: deferring to libdir
+09-15 00:36:48.732 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libimagepipeline.so: deferring to libdir
+09-15 00:36:48.732 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsc.so: deferring to libdir
+09-15 00:36:48.732 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjscexecutor.so: deferring to libdir
+09-15 00:36:48.732 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsijniprofiler.so: deferring to libdir
+09-15 00:36:48.733 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsinspector.so: deferring to libdir
+09-15 00:36:48.733 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libmapbufferjni.so: deferring to libdir
+09-15 00:36:48.733 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-filters.so: deferring to libdir
+09-15 00:36:48.733 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-imagetranscoder.so: deferring to libdir
+09-15 00:36:48.734 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_codegen_rncore.so: deferring to libdir
+09-15 00:36:48.734 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_debug.so: deferring to libdir
+09-15 00:36:48.734 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_nativemodule_core.so: deferring to libdir
+09-15 00:36:48.734 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_animations.so: deferring to libdir
+09-15 00:36:48.735 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_attributedstring.so: deferring to libdir
+09-15 00:36:48.735 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_componentregistry.so: deferring to libdir
+09-15 00:36:48.735 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_core.so: deferring to libdir
+09-15 00:36:48.735 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_debug.so: deferring to libdir
+09-15 00:36:48.736 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_graphics.so: deferring to libdir
+09-15 00:36:48.736 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_imagemanager.so: deferring to libdir
+09-15 00:36:48.736 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_leakchecker.so: deferring to libdir
+09-15 00:36:48.736 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mapbuffer.so: deferring to libdir
+09-15 00:36:48.736 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mounting.so: deferring to libdir
+09-15 00:36:48.737 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_runtimescheduler.so: deferring to libdir
+09-15 00:36:48.737 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_scheduler.so: deferring to libdir
+09-15 00:36:48.737 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_telemetry.so: deferring to libdir
+09-15 00:36:48.737 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_templateprocessor.so: deferring to libdir
+09-15 00:36:48.737 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_textlayoutmanager.so: deferring to libdir
+09-15 00:36:48.738 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_uimanager.so: deferring to libdir
+09-15 00:36:48.738 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_utils.so: deferring to libdir
+09-15 00:36:48.738 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactconfig.so: deferring to libdir
+09-15 00:36:48.738 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeblob.so: deferring to libdir
+09-15 00:36:48.739 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativejni.so: deferring to libdir
+09-15 00:36:48.739 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeutilsjni.so: deferring to libdir
+09-15 00:36:48.739 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactperfloggerjni.so: deferring to libdir
+09-15 00:36:48.739 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_image.so: deferring to libdir
+09-15 00:36:48.740 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_modal.so: deferring to libdir
+09-15 00:36:48.740 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_picker.so: deferring to libdir
+09-15 00:36:48.740 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_progressbar.so: deferring to libdir
+09-15 00:36:48.741 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_root.so: deferring to libdir
+09-15 00:36:48.741 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_scrollview.so: deferring to libdir
+09-15 00:36:48.741 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_slider.so: deferring to libdir
+09-15 00:36:48.741 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_switch.so: deferring to libdir
+09-15 00:36:48.742 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_text.so: deferring to libdir
+09-15 00:36:48.742 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_textinput.so: deferring to libdir
+09-15 00:36:48.742 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_unimplementedview.so: deferring to libdir
+09-15 00:36:48.742 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_view.so: deferring to libdir
+09-15 00:36:48.743 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libturbomodulejsijni.so: deferring to libdir
+09-15 00:36:48.743 27938 27938 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libyoga.so: deferring to libdir
+09-15 00:36:48.743 27938 27938 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:36:48.744 27938 27938 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:36:48.745 27938 27938 V fb-UnpackingSoSource: starting syncer worker
+09-15 00:36:48.754 27938 27938 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main (from syncer thread)
+09-15 00:36:48.754 27938 27938 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main (syncer thread started)
+09-15 00:36:48.754 27938 27938 D SoLoader: init finish: 4 SO sources prepared
+09-15 00:36:48.754 27938 27938 D SoLoader: init exiting
+09-15 00:36:48.788 27938 27938 D SoLoader: init exiting
+09-15 00:36:48.789 27938 27938 D SoLoader: About to load: libjscexecutor.so
+09-15 00:36:48.790 27938 27938 D SoLoader: libjscexecutor.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:36:48.790 27938 27938 D SoLoader: libjscexecutor.so found on /data/app/br.com.arnoldosilva.estudo_tdd-pPt1DbuTAsM6QsXPTMAFvw==/lib/arm
+09-15 00:36:48.790 27938 27938 D SoLoader: Not resolving dependencies for libjscexecutor.so
+09-15 00:36:48.847 27938 27938 D JavaScriptCore.Version: 250230.2.1
+09-15 00:36:48.848 27938 27938 D SoLoader: Loaded: libjscexecutor.so
+09-15 00:36:48.853 27938 27938 D SoLoader: init exiting
+09-15 00:36:49.261 27938 27938 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (light greylist, reflection)
+09-15 00:36:49.261 27938 27938 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setHostname(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:36:49.261 27938 27938 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (light greylist, reflection)
+09-15 00:36:49.262 27938 27938 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (light greylist, reflection)
+09-15 00:36:49.291 27938 27938 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+09-15 00:36:49.291 27938 27938 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:36:49.291 27938 27938 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+09-15 00:36:49.294 27938 27938 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+09-15 00:36:49.332 27938 27938 D SensorManager: registerListener :: 0, K6DS3TR Accelerometer, 66667, 0,  
+09-15 00:36:49.373 27938 28132 D SoLoader: About to load: libfbjni.so
+09-15 00:36:49.374 27938 28132 D SoLoader: libfbjni.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:36:49.374 27938 28132 D SoLoader: libfbjni.so found on /data/app/br.com.arnoldosilva.estudo_tdd-pPt1DbuTAsM6QsXPTMAFvw==/lib/arm
+09-15 00:36:49.374 27938 28132 D SoLoader: Not resolving dependencies for libfbjni.so
+09-15 00:36:49.376 27938 28132 D SoLoader: Loaded: libfbjni.so
+09-15 00:36:49.376 27938 28132 D SoLoader: About to load: libflipper.so
+09-15 00:36:49.377 27938 28132 D SoLoader: libflipper.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:36:49.377 27938 28132 D SoLoader: libflipper.so found on /data/app/br.com.arnoldosilva.estudo_tdd-pPt1DbuTAsM6QsXPTMAFvw==/lib/arm
+09-15 00:36:49.377 27938 28132 D SoLoader: Not resolving dependencies for libflipper.so
+09-15 00:36:49.432 27938 28132 D SoLoader: Loaded: libflipper.so
+09-15 00:36:49.474 27938 28135 D NetworkManagementSocketTagger: tagSocket(59) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:49.474 27938 28134 D NetworkManagementSocketTagger: tagSocket(57) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:49.479 27938 28134 W unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+09-15 00:36:49.479 27938 28135 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-J530G%20-%209%20-%20API%2028&app=br.com.arnoldosilva.estudo_tdd&clientid=DevSupportManagerImpl", will silently retry
+09-15 00:36:49.587 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (light greylist, reflection)
+09-15 00:36:49.587 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (light greylist, reflection)
+09-15 00:36:49.587 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (light greylist, reflection)
+09-15 00:36:49.606 27938 27938 I flipper : flipper: FlipperClient::addPlugin Inspector
+09-15 00:36:49.606 27938 27938 I flipper : flipper: FlipperClient::addPlugin React
+09-15 00:36:49.612 27938 27938 I flipper : flipper: FlipperClient::addPlugin Databases
+09-15 00:36:49.615 27938 27938 I flipper : flipper: FlipperClient::addPlugin Preferences
+09-15 00:36:49.616 27938 27938 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+09-15 00:36:49.625 27938 27938 I flipper : flipper: FlipperClient::addPlugin Network
+09-15 00:36:49.630 27938 27938 I MonitoringInstr: No JSBridge.
+09-15 00:36:49.669 27938 28120 I UsageTrackerFacilitator: Usage tracking enabled
+09-15 00:36:49.676 27938 28120 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/br.com.arnoldosilva.estudo_tdd.test-7RP2NVhie60MOMqudvNYKw==/base.apk]
+09-15 00:36:49.681 27938 28120 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-15 00:36:51.542 27938 28146 D NetworkManagementSocketTagger: tagSocket(79) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:51.542 27938 28134 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:52.691 27938 28120 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+09-15 00:36:52.691 27938 28120 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+09-15 00:36:52.691 27938 28120 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+09-15 00:36:52.695 27938 28120 I TestRunner: run started: 1 tests
+09-15 00:36:52.706 27938 28120 I TestRunner: started: runDetoxTests(com.estudo_tdd.DetoxTest)
+09-15 00:36:52.762 27938 28120 D EventInjectionStrategy: Creating injection strategy with input manager.
+09-15 00:36:52.763 27938 28120 W ilva.estudo_td: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (light greylist, reflection)
+09-15 00:36:52.765 27938 28120 W ilva.estudo_td: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (light greylist, reflection)
+09-15 00:36:52.765 27938 28120 W ilva.estudo_td: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (light greylist, reflection)
+09-15 00:36:52.804 27938 28120 W ilva.estudo_td: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (light greylist, reflection)
+09-15 00:36:52.980 27938 27938 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@b4cc66d
+09-15 00:36:53.225 27938 27938 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@5186ee in: PRE_ON_CREATE
+09-15 00:36:53.237 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+09-15 00:36:53.237 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+09-15 00:36:53.237 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+09-15 00:36:53.237 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+09-15 00:36:53.237 27938 27938 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+09-15 00:36:53.285 27938 28160 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:53.288 27938 28160 W unknown:ReactNative: The packager does not seem to be running as we got an IOException requesting its status: Failed to connect to localhost/127.0.0.1:8081
+09-15 00:36:53.290 27938 27938 I MultiWindowDecorSupport: updateCaptionType >> DecorView@f10b4[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+09-15 00:36:53.290 27938 27938 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@f10b4[]
+09-15 00:36:53.358 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+09-15 00:36:53.360 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+09-15 00:36:53.371 27938 27938 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@5186ee in: CREATED
+09-15 00:36:53.384 27938 27938 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@5186ee in: STARTED
+09-15 00:36:53.388 27938 27938 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@5186ee in: RESUMED
+09-15 00:36:53.390 27938 27938 D OpenGLRenderer: Skia GL Pipeline
+09-15 00:36:53.396 27938 27938 D EmergencyMode: [EmergencyManager] android createPackageContext successful
+09-15 00:36:53.423 27938 27938 D InputTransport: Input channel constructed: fd=82
+09-15 00:36:53.429 27938 27938 D ViewRootImpl@3aec76[MainActivity]: setView = DecorView@f10b4[MainActivity] TM=false MM=false
+09-15 00:36:53.454 27938 28163 D SoLoader: About to load: libreactnativejni.so
+09-15 00:36:53.455 27938 28163 D SoLoader: libreactnativejni.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:36:53.455 27938 28163 D SoLoader: libreactnativejni.so found on /data/app/br.com.arnoldosilva.estudo_tdd-pPt1DbuTAsM6QsXPTMAFvw==/lib/arm
+09-15 00:36:53.455 27938 28163 D SoLoader: Not resolving dependencies for libreactnativejni.so
+09-15 00:36:53.459 27938 27938 W unknown:ReactNative: Packager connection already open, nooping.
+09-15 00:36:53.459 27938 28163 D SoLoader: Loaded: libreactnativejni.so
+09-15 00:36:53.487 27938 27938 D ViewRootImpl@3aec76[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x6 surface={true 3473850368} changed=true
+09-15 00:36:53.530 27938 28161 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-15 00:36:53.530 27938 28161 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+09-15 00:36:53.530 27938 28161 I OpenGLRenderer: Initialized EGL, version 1.4
+09-15 00:36:53.530 27938 28161 D OpenGLRenderer: Swap behavior 2
+09-15 00:36:53.546 27938 28161 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:36:53.546 27938 28161 D OpenGLRenderer: eglCreateWindowSurface = 0xe98f8c80, 0xcf0ec008
+09-15 00:36:53.555 27938 28161 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: Exception in native call
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: java.lang.RuntimeException: Unable to load script. Make sure you're either running Metro (run 'react-native start') or that your bundle 'index.android.bundle' is packaged correctly for release.
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.jniLoadScriptFromAssets(Native Method)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.loadScriptFromAssets(CatalystInstanceImpl.java:232)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.bridge.JSBundleLoader$1.loadScript(JSBundleLoader.java:29)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.runJSBundle(CatalystInstanceImpl.java:261)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManager.java:1350)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.access$1100(ReactInstanceManager.java:135)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager$5.run(ReactInstanceManager.java:1053)
+09-15 00:36:53.586 27938 28163 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:36:53.640 27938 27938 D ViewRootImpl@3aec76[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:36:53.641 27938 27938 D ViewRootImpl@3aec76[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:36:53.648 27938 27938 D InputMethodManager: prepareNavigationBarInfo() DecorView@f10b4[MainActivity]
+09-15 00:36:53.648 27938 27938 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:36:53.651 27938 27938 D InputMethodManager: prepareNavigationBarInfo() DecorView@f10b4[MainActivity]
+09-15 00:36:53.651 27938 27938 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:36:53.651 27938 27938 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:36:53.652 27938 27938 D InputMethodManager: startInputInner - Id : 0
+09-15 00:36:53.652 27938 27938 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:36:53.671 27938 27959 D InputTransport: Input channel constructed: fd=98
+09-15 00:36:53.742 27938 28134 D NetworkManagementSocketTagger: tagSocket(95) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:53.814 27938 28183 D NetworkManagementSocketTagger: tagSocket(95) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:53.816 27938 27938 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:36:53.823 27938 27938 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:36:53.824 27938 27938 I MultiWindowDecorSupport: updateCaptionType >> DecorView@ccc275a[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:36:53.824 27938 27938 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@ccc275a[]
+09-15 00:36:53.912 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic; (light greylist, linking)
+09-15 00:36:53.987 27938 27938 D InputTransport: Input channel constructed: fd=104
+09-15 00:36:53.989 27938 27938 D ViewRootImpl@81a0d4b[MainActivity]: setView = DecorView@ccc275a[MainActivity] TM=false MM=false
+09-15 00:36:54.060 27938 27938 D ViewRootImpl@81a0d4b[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x6 surface={true 3473852416} changed=true
+09-15 00:36:54.066 27938 28161 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:36:54.066 27938 28161 D OpenGLRenderer: eglCreateWindowSurface = 0xe98f7360, 0xcf0ec808
+09-15 00:36:54.091 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+09-15 00:36:54.092 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+09-15 00:36:54.092 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+09-15 00:36:54.092 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+09-15 00:36:54.092 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+09-15 00:36:54.092 27938 27938 W ilva.estudo_td: Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+09-15 00:36:54.305 27938 27938 D AbsListView:  in onLayout changed 
+09-15 00:36:54.309 27938 27938 D InputMethodManager: prepareNavigationBarInfo() DecorView@f10b4[MainActivity]
+09-15 00:36:54.309 27938 27938 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:36:54.309 27938 27938 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:36:54.310 27938 27938 D InputMethodManager: startInputInner - Id : 0
+09-15 00:36:54.312 27938 27938 D ViewRootImpl@81a0d4b[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:36:54.312 27938 27938 D InputMethodManager: prepareNavigationBarInfo() DecorView@ccc275a[MainActivity]
+09-15 00:36:54.312 27938 27938 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:36:54.318 27938 27938 D InputMethodManager: prepareNavigationBarInfo() DecorView@ccc275a[MainActivity]
+09-15 00:36:54.319 27938 27938 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:36:54.319 27938 27938 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:36:54.319 27938 27938 D InputMethodManager: startInputInner - Id : 0
+09-15 00:36:54.319 27938 27938 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:36:54.322 27938 27938 D InputTransport: Input channel constructed: fd=106
+09-15 00:36:54.322 27938 27938 D InputTransport: Input channel destroyed: fd=98
+09-15 00:36:54.382 27938 27938 D ViewRootImpl@81a0d4b[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:36:54.415 27938 27938 D ViewRootImpl@3aec76[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:36:54.415 27938 27938 D InputMethodManager: prepareNavigationBarInfo() DecorView@f10b4[MainActivity]
+09-15 00:36:54.416 27938 27938 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:36:54.420 27938 28120 I Detox   : Detox server connection details: url=ws://localhost:54467, sessionId=e161cbb1-7675-315c-551c-38c088c42e5b
+09-15 00:36:54.435 27938 28203 I DetoxDispatcher: Handling action '_init' (ID #0)...
+09-15 00:36:54.435 27938 28203 I Detox   : Connecting to server...
+09-15 00:36:54.435 27938 28203 I DetoxWSClient: At connectToServer
+09-15 00:36:54.450 27938 28205 D NetworkManagementSocketTagger: tagSocket(98) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:54.510 27938 28205 D DetoxWSClient: At onOpen
+09-15 00:36:54.510 27938 28205 I DetoxWSClient: Sending out action 'login' (ID #0)
+09-15 00:36:54.512 27938 28205 I Detox   : Connected to server!
+09-15 00:36:54.521 27938 28205 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+09-15 00:36:54.560 27938 28205 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+09-15 00:36:55.794 27938 28134 D NetworkManagementSocketTagger: tagSocket(119) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:55.848 27938 28226 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:57.827 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:57.874 27938 28230 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:59.859 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:36:59.905 27938 28241 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:01.900 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:01.933 27938 28253 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:03.933 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:03.958 27938 28259 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:04.531 27938 28205 D DetoxWSClient: Received action 'currentStatus' (ID #1, params={})
+09-15 00:37:04.532 27938 28204 I DetoxDispatcher: Handling action 'currentStatus' (ID #1)...
+09-15 00:37:05.966 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:05.985 27938 28263 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:07.996 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:08.016 27938 28266 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:10.013 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:10.032 27938 28270 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:12.037 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:12.057 27938 28273 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:14.065 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:14.086 27938 28276 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:16.088 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:16.113 27938 28279 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:18.107 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:18.136 27938 28282 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:20.129 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:20.155 27938 28287 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:22.157 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:22.186 27938 28290 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:24.187 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:24.217 27938 28294 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:26.218 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:26.248 27938 28298 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:28.235 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:28.264 27938 28301 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:30.261 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:30.291 27938 28306 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:32.291 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:32.313 27938 28309 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:34.320 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:34.343 27938 28312 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:36.349 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:36.373 27938 28316 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:38.369 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:38.394 27938 28319 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:40.395 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:40.422 27938 28342 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:42.423 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:42.452 27938 28345 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:44.451 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:44.482 27938 28348 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:46.478 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:46.510 27938 28351 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:48.506 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:48.539 27938 28356 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:50.533 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:50.569 27938 28360 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:52.560 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:52.598 27938 28363 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:54.589 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:54.630 27938 28366 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:56.616 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:56.659 27938 28369 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:58.631 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:37:58.674 27938 28374 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:00.654 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:00.695 27938 28379 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:02.681 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:02.723 27938 28383 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:04.707 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:04.750 27938 28387 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:06.733 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:06.778 27938 28390 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:08.760 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:08.806 27938 28393 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:10.786 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:10.836 27938 28397 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:12.812 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:12.862 27938 28400 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:14.837 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:14.888 27938 28403 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:16.862 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:16.915 27938 28407 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:18.887 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:18.944 27938 28410 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:20.903 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:20.959 27938 28414 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:22.924 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:22.984 27938 28417 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:24.948 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:25.007 27938 28420 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:26.971 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:27.033 27938 28423 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:28.994 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:29.059 27938 28426 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:31.017 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:31.089 27938 28430 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:33.040 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:33.115 27938 28433 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:35.063 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:35.139 27938 28436 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:37.086 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:37.163 27938 28440 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:39.107 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:39.189 27938 28444 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:41.130 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:41.214 27938 28448 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:43.153 27938 28134 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:38:43.238 27938 28451 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1

@@ -1,0 +1,237 @@
+detox[46337] TRACE: [DETOX_CREATE] created a Detox instance with config:
+{
+  artifactsConfig: {
+    rootDir: 'artifacts/android.attached.2021-09-15 02-40-09Z',
+    plugins: {
+      log: {
+        enabled: true,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      screenshot: {
+        enabled: true,
+        shouldTakeAutomaticSnapshots: false,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      video: {
+        enabled: false,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      instruments: {
+        enabled: false,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      timeline: {
+        enabled: false
+      },
+      uiHierarchy: {
+        enabled: false,
+        keepOnlyFailedTestsArtifacts: false
+      }
+    },
+    pathBuilder: ArtifactPathBuilder {
+      _rootDir: 'artifacts/android.attached.2021-09-15 02-40-09Z'
+    }
+  },
+  appsConfig: {
+    default: {
+      type: 'android.apk',
+      binaryPath: 'android/app/build/outputs/apk/debug/app-debug.apk'
+    }
+  },
+  behaviorConfig: {
+    init: {
+      reinstallApp: true,
+      exposeGlobals: true
+    },
+    cleanup: {
+      shutdownDevice: false
+    },
+    launchApp: 'auto'
+  },
+  cliConfig: {
+    recordLogs: 'all',
+    configuration: 'android.attached',
+    forceAdbInstall: 'false',
+    useCustomLogger: 'true'
+  },
+  deviceConfig: {
+    type: 'android.attached',
+    device: {
+      adbName: '5200f2fdb88c84d7'
+    },
+    utilBinaryPaths: undefined
+  },
+  runnerConfig: {
+    testRunner: 'jest',
+    runnerConfig: 'e2e/config.json',
+    specs: 'e2e',
+    skipLegacyWorkersInjection: true
+  },
+  sessionConfig: {
+    autoStart: true,
+    server: 'ws://localhost:53449',
+    sessionId: '731a79d1-9c0d-4661-2a18-f7bc0b6c5abb',
+    debugSynchronization: 10000
+  }
+}
+detox[46337] DEBUG: [WSS_CREATE] Detox server listening on localhost:53449...
+detox[46337] DEBUG: [WSS_CONNECTION, #53450] registered a new connection.
+detox[46337] TRACE: [WS_OPEN] opened web socket to: ws://localhost:53449
+detox[46337] TRACE: [WS_SEND] {"type":"login","params":{"sessionId":"731a79d1-9c0d-4661-2a18-f7bc0b6c5abb","role":"tester"},"messageId":0}
+detox[46337] TRACE: [WSS_GET_FROM, #53450] {"type":"login","params":{"sessionId":"731a79d1-9c0d-4661-2a18-f7bc0b6c5abb","role":"tester"},"messageId":0}
+detox[46337] TRACE: [SESSION_CREATED] created session 731a79d1-9c0d-4661-2a18-f7bc0b6c5abb
+detox[46337] TRACE: [WSS_SEND_TO, #tester] {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+detox[46337] TRACE: [SESSION_JOINED] tester joined session 731a79d1-9c0d-4661-2a18-f7bc0b6c5abb
+detox[46337] TRACE: [WS_MESSAGE] {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+ 
+detox[46337] DEBUG: [EXEC_CMD, #0] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb"  devices
+detox[46337] DEBUG: [EXEC_SUCCESS, #0] List of devices attached
+5200f2fdb88c84d7	device
+
+
+detox[46337] DEBUG: [DEVICE_LOOKUP] Found a matching & free device 5200f2fdb88c84d7
+detox[46337] DEBUG: [EXEC_CMD, #1] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "getprop ro.build.version.sdk"
+detox[46337] TRACE: [EXEC_SUCCESS, #1] 28
+
+detox[46337] DEBUG: [EXEC_CMD, #2] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+detox[46337] TRACE: [EXEC_SUCCESS, #2]   mWakefulness=Awake
+  mWakefulnessChanging=false
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x4
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserActivityTimeoutForDexOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBootDevice({ coldBoot: false, deviceId: '5200f2fdb88c84d7', type: 'device' })
+detox[46337] DEBUG: [EXEC_CMD, #3] "/Users/arnoldosilva/Library/Android/sdk/build-tools/30.0.3/aapt" dump badging "/Users/arnoldosilva/Estudo/rn/estudo_tdd/android/app/build/outputs/apk/debug/app-debug.apk" | grep -e "package: name="
+detox[46337] TRACE: [EXEC_SUCCESS, #3] package: name='br.com.arnoldosilva.estudo_tdd' versionCode='1' versionName='1.0' compileSdkVersion='30' compileSdkVersionCodename='11'
+
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeTerminateApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd'
+})
+detox[46337] DEBUG: [EXEC_CMD, #4] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "am force-stop br.com.arnoldosilva.estudo_tdd"
+detox[46337] TRACE: [EXEC_SUCCESS, #4] 
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTerminateApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd'
+})
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeUninstallApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd'
+})
+detox[46337] DEBUG: [EXEC_CMD, #5] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "pm list packages br.com.arnoldosilva.estudo_tdd"
+detox[46337] TRACE: [EXEC_SUCCESS, #5] package:br.com.arnoldosilva.estudo_tdd.test
+
+detox[46337] DEBUG: [EXEC_CMD, #6] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "pm list packages br.com.arnoldosilva.estudo_tdd.test"
+detox[46337] TRACE: [EXEC_SUCCESS, #6] package:br.com.arnoldosilva.estudo_tdd.test
+
+detox[46337] DEBUG: [EXEC_CMD, #7] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 uninstall br.com.arnoldosilva.estudo_tdd.test
+detox[46337] TRACE: [EXEC_SUCCESS, #7] Success
+
+detox[46337] DEBUG: [EXEC_CMD, #8] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 install -r -g -t "/Users/arnoldosilva/Estudo/rn/estudo_tdd/android/app/build/outputs/apk/debug/app-debug.apk"
+detox[46337] TRACE: [EXEC_SUCCESS, #8] Performing Streamed Install
+Success
+
+detox[46337] DEBUG: [EXEC_CMD, #9] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 install -r -g -t "/Users/arnoldosilva/Estudo/rn/estudo_tdd/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+detox[46337] TRACE: [EXEC_SUCCESS, #9] Performing Streamed Install
+Success
+
+ROOT_DESCRIBE_BLOCK[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeStart({ name: 'ROOT_DESCRIBE_BLOCK' })
+App[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeStart({ name: 'App' })
+detox[46337] INFO:  [97mApp[39m is assigned to [94m5200f2fdb88c84d7[39m
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeTerminateApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd'
+})
+detox[46337] DEBUG: [EXEC_CMD, #10] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "am force-stop br.com.arnoldosilva.estudo_tdd"
+detox[46337] TRACE: [EXEC_SUCCESS, #10] 
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTerminateApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd'
+})
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeLaunchApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd',
+  launchArgs: {
+    detoxServer: 'ws://localhost:53449',
+    detoxSessionId: '731a79d1-9c0d-4661-2a18-f7bc0b6c5abb'
+  }
+})
+detox[46337] DEBUG: [EXEC_CMD, #11] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "date +\"%m-%d %T.000\""
+detox[46337] TRACE: [EXEC_SUCCESS, #11] 09-14 23:41:00.000
+
+detox[46337] DEBUG: [EXEC_CMD, #12] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 reverse tcp:53449 tcp:53449
+detox[46337] TRACE: [EXEC_SUCCESS, #12] 
+detox[46337] DEBUG: [EXEC_CMD, #13] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "pm list instrumentation"
+detox[46337] TRACE: [EXEC_SUCCESS, #13] instrumentation:br.com.arnoldosilva.estudo_tdd.test/android.test.InstrumentationTestRunner (target=br.com.arnoldosilva.estudo_tdd)
+instrumentation:com.estudo_tdd.test/android.test.InstrumentationTestRunner (target=com.estudo_tdd)
+instrumentation:com.microsoft.office.excel/android.test.InstrumentationTestRunner (target=com.microsoft.office.msohttp.tests)
+instrumentation:com.microsoft.office.word/android.test.InstrumentationTestRunner (target=com.microsoft.office.msohttp.tests)
+instrumentation:com.microsoft.office.powerpoint/android.test.InstrumentationTestRunner (target=com.microsoft.office.msohttp.tests)
+
+detox[46337] DEBUG: [SPAWN_CMD, #46394] /Users/arnoldosilva/Library/Android/sdk/platform-tools/adb -s 5200f2fdb88c84d7 shell am instrument -w -r -e detoxServer ws://localhost:53449 -e detoxSessionId 731a79d1-9c0d-4661-2a18-f7bc0b6c5abb -e debug false br.com.arnoldosilva.estudo_tdd.test/android.test.InstrumentationTestRunner
+detox[46337] DEBUG: [EXEC_CMD, #14] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "ps | grep \"br\.com\.arnoldosilva\.estudo_tdd$\""
+detox[46337] TRACE: [EXEC_SUCCESS, #14] u0_a339      10437  4606 1714524  82860                     0 R br.com.arnoldosilva.estudo_tdd
+
+detox[10437] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onLaunchApp({
+  deviceId: '5200f2fdb88c84d7',
+  bundleId: 'br.com.arnoldosilva.estudo_tdd',
+  launchArgs: {
+    detoxServer: 'ws://localhost:53449',
+    detoxSessionId: '731a79d1-9c0d-4661-2a18-f7bc0b6c5abb'
+  },
+  pid: 10437
+})
+detox[46337] TRACE: [ARTIFACT_START] starting ADBLogcatRecording
+detox[46337] DEBUG: [SPAWN_CMD, #46399] /Users/arnoldosilva/Library/Android/sdk/platform-tools/adb -s 5200f2fdb88c84d7 shell "logcat -T \"09-14 23:41:00.000\" --pid=10437 -f /sdcard/234017141_0.log"
+detox[46337] DEBUG: [EXEC_CMD, #15] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell du /sdcard/234017141_0.log
+detox[46337] TRACE: [EXEC_SUCCESS, #15] 4	/sdcard/234017141_0.log
+
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onHookFailure({
+  error: 'Exceeded timeout of 120000 ms for a hook.\n' +
+    'Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.',
+  hook: 'beforeAll'
+})
+detox[46337] INFO:  [1m[37mApp: [39m[22m[90mshould show home screen[39m
+detox[46337] INFO:  [1m[37mApp: [39m[22m[90mshould show home screen[39m[90m [[31mFAIL[90m][39m
+App[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeFinish({ name: 'App' })
+ROOT_DESCRIBE_BLOCK[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeFinish({ name: 'ROOT_DESCRIBE_BLOCK' })
+detox[46337] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeCleanup()
+detox[46337] TRACE: [ARTIFACT_SAVE] saving ADBLogcatRecording to: artifacts/android.attached.2021-09-15 02-40-09Z/5200f2fdb88c84d7 2021-09-15 02-42-43Z.startup.log
+detox[46337] TRACE: [ARTIFACT_STOP] stopping ADBLogcatRecording
+detox[46337] DEBUG: [EXEC_CMD, #16] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "date +\"%m-%d %T.000\""
+detox[46337] TRACE: [EXEC_SUCCESS, #16] 09-14 23:43:00.000
+
+detox[46337] TRACE: [SPAWN_KILL, #46399] sending SIGINT to: /Users/arnoldosilva/Library/Android/sdk/platform-tools/adb -s 5200f2fdb88c84d7 shell logcat -T "09-14 23:41:00.000" --pid=10437 -f /sdcard/234017141_0.log
+detox[46337] DEBUG: [SPAWN_END, #46399] /Users/arnoldosilva/Library/Android/sdk/platform-tools/adb -s 5200f2fdb88c84d7 shell "logcat -T \"09-14 23:41:00.000\" --pid=10437 -f /sdcard/234017141_0.log" terminated with SIGINT
+detox[46337] DEBUG: [EXEC_CMD, #17] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 pull "/sdcard/234017141_0.log" "artifacts/android.attached.2021-09-15 02-40-09Z/5200f2fdb88c84d7 2021-09-15 02-42-43Z.startup.log"
+detox[46337] TRACE: [EXEC_SUCCESS, #17] /sdcard/234017141_0.log: 1 file pulled, 0 skipped. 15.0 MB/s (85199 bytes in 0.005s)
+
+detox[46337] DEBUG: [EXEC_CMD, #18] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 shell "rm  \"/sdcard/234017141_0.log\""
+detox[46337] TRACE: [EXEC_SUCCESS, #18] 
+detox[46337] TRACE: [ARTIFACT_START] starting FileArtifact
+detox[46337] TRACE: [ARTIFACT_STOP] stopping FileArtifact
+detox[46337] TRACE: [ARTIFACT_SAVE] saving FileArtifact to: artifacts/android.attached.2021-09-15 02-40-09Z/detox_pid_46337.json.log { append: true }
+detox[46337] TRACE: [ARTIFACT_START] starting FileArtifact
+detox[46337] TRACE: [ARTIFACT_STOP] stopping FileArtifact
+detox[46337] TRACE: [ARTIFACT_SAVE] saving FileArtifact to: artifacts/android.attached.2021-09-15 02-40-09Z/detox_pid_46337.log { append: true }
+detox[46337] DEBUG: [MOVE_FILE] moving "/private/var/folders/vc/cc7kd_1d6cx2hg8wb5pv_6pr0000gn/T/fba777d9-a22e-4db9-b611-636afc32d7b9.detox.log" to artifacts/android.attached.2021-09-15 02-40-09Z/detox_pid_46337.json.log
+detox[46337] DEBUG: [MOVE_FILE] moving "/private/var/folders/vc/cc7kd_1d6cx2hg8wb5pv_6pr0000gn/T/fde5e3a1-51f2-4bc7-b809-8f11cc07d348.detox.log" to artifacts/android.attached.2021-09-15 02-40-09Z/detox_pid_46337.log
+detox[46337] ERROR: [APP_UNREACHABLE] Detox can't seem to connect to the test app(s)!
+
+HINT: 
+
+The test app might have crashed prematurely, or has had trouble setting up the connection.
+Refer to our troubleshooting guide, for full details: https://github.com/wix/Detox/blob/master/docs/Troubleshooting.RunningTests.md#tests-execution-hangs 
+
+
+
+detox[46337] TRACE: [SESSION_TORN] tester exited session 731a79d1-9c0d-4661-2a18-f7bc0b6c5abb
+detox[46337] TRACE: [SPAWN_KILL, #46394] sending SIGINT to: /Users/arnoldosilva/Library/Android/sdk/platform-tools/adb -s 5200f2fdb88c84d7 shell am instrument -w -r -e detoxServer ws://localhost:53449 -e detoxSessionId 731a79d1-9c0d-4661-2a18-f7bc0b6c5abb -e debug false br.com.arnoldosilva.estudo_tdd.test/android.test.InstrumentationTestRunner
+detox[46337] DEBUG: [SPAWN_END, #46394] /Users/arnoldosilva/Library/Android/sdk/platform-tools/adb -s 5200f2fdb88c84d7 shell am instrument -w -r -e detoxServer ws://localhost:53449 -e detoxSessionId 731a79d1-9c0d-4661-2a18-f7bc0b6c5abb -e debug false br.com.arnoldosilva.estudo_tdd.test/android.test.InstrumentationTestRunner terminated with SIGINT
+detox[46337] DEBUG: [EXEC_CMD, #19] "/Users/arnoldosilva/Library/Android/sdk/platform-tools/adb" -s 5200f2fdb88c84d7 reverse --remove tcp:53449
+detox[46337] DEBUG: [WSS_CLOSE] Detox server has been closed gracefully
+detox[46337] TRACE: [EXEC_SUCCESS, #19] 

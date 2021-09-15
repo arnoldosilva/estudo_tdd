@@ -1,0 +1,828 @@
+--------- beginning of main
+09-15 00:46:25.732 32522 32522 E Zygote  : isWhitelistProcess - Process is Whitelisted
+09-15 00:46:25.733 32522 32522 E Zygote  : accessInfo : 1
+09-15 00:46:25.742 32522 32522 I ilva.estudo_td: Late-enabling -Xcheck:jni
+--------- beginning of system
+09-15 00:46:25.918 32522 32522 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[br.com.arnoldosilva.estudo_tdd]: armeabi-v7a, null instrumentation[br.com.arnoldosilva.estudo_tdd.test]: null, null
+09-15 00:46:27.620 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:46:27.620 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:46:27.637 32522 32522 I MonitoringInstr: Instrumentation started!
+09-15 00:46:27.685 32522 32522 D SoLoader: init start
+09-15 00:46:27.687 32522 32522 D SoLoader: adding system library source: /vendor/lib
+09-15 00:46:27.688 32522 32522 D SoLoader: adding system library source: /system/lib
+09-15 00:46:27.689 32522 32522 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/br.com.arnoldosilva.estudo_tdd-AAKWEQZP51oEk8A-cbzj-A==/lib/arm flags = 0]
+09-15 00:46:27.694 32522 32522 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/br.com.arnoldosilva.estudo_tdd/lib-main flags = 1]
+09-15 00:46:27.694 32522 32522 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+09-15 00:46:27.694 32522 32522 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/vendor/lib flags = 2]
+09-15 00:46:27.695 32522 32522 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/br.com.arnoldosilva.estudo_tdd-AAKWEQZP51oEk8A-cbzj-A==/lib/arm flags = 0]
+09-15 00:46:27.695 32522 32522 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/br.com.arnoldosilva.estudo_tdd/lib-main flags = 1]
+09-15 00:46:27.698 32522 32522 V fb-UnpackingSoSource: locked dso store /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:46:27.701 32522 32522 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+09-15 00:46:27.702 32522 32522 V fb-UnpackingSoSource: so store dirty: regenerating
+09-15 00:46:27.945 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libbetter.so: deferring to libdir
+09-15 00:46:27.945 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libc++_shared.so: deferring to libdir
+09-15 00:46:27.945 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent-2.1.so: deferring to libdir
+09-15 00:46:27.945 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_core-2.1.so: deferring to libdir
+09-15 00:46:27.946 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_extra-2.1.so: deferring to libdir
+09-15 00:46:27.946 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfabricjni.so: deferring to libdir
+09-15 00:46:27.946 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfb.so: deferring to libdir
+09-15 00:46:27.947 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfbjni.so: deferring to libdir
+09-15 00:46:27.947 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libflipper.so: deferring to libdir
+09-15 00:46:27.947 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_futures.so: deferring to libdir
+09-15 00:46:27.947 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_json.so: deferring to libdir
+09-15 00:46:27.947 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog.so: deferring to libdir
+09-15 00:46:27.948 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog_init.so: deferring to libdir
+09-15 00:46:27.948 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-debug.so: deferring to libdir
+09-15 00:46:27.948 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-release.so: deferring to libdir
+09-15 00:46:27.949 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-debug.so: deferring to libdir
+09-15 00:46:27.949 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-release.so: deferring to libdir
+09-15 00:46:27.949 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-inspector.so: deferring to libdir
+09-15 00:46:27.949 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libimagepipeline.so: deferring to libdir
+09-15 00:46:27.950 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsc.so: deferring to libdir
+09-15 00:46:27.950 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjscexecutor.so: deferring to libdir
+09-15 00:46:27.950 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsijniprofiler.so: deferring to libdir
+09-15 00:46:27.951 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsinspector.so: deferring to libdir
+09-15 00:46:27.951 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libmapbufferjni.so: deferring to libdir
+09-15 00:46:27.951 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-filters.so: deferring to libdir
+09-15 00:46:27.951 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-imagetranscoder.so: deferring to libdir
+09-15 00:46:27.952 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_codegen_rncore.so: deferring to libdir
+09-15 00:46:27.952 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_debug.so: deferring to libdir
+09-15 00:46:27.952 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_nativemodule_core.so: deferring to libdir
+09-15 00:46:27.952 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_animations.so: deferring to libdir
+09-15 00:46:27.952 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_attributedstring.so: deferring to libdir
+09-15 00:46:27.953 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_componentregistry.so: deferring to libdir
+09-15 00:46:27.953 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_core.so: deferring to libdir
+09-15 00:46:27.953 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_debug.so: deferring to libdir
+09-15 00:46:27.953 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_graphics.so: deferring to libdir
+09-15 00:46:27.953 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_imagemanager.so: deferring to libdir
+09-15 00:46:27.954 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_leakchecker.so: deferring to libdir
+09-15 00:46:27.954 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mapbuffer.so: deferring to libdir
+09-15 00:46:27.954 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mounting.so: deferring to libdir
+09-15 00:46:27.954 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_runtimescheduler.so: deferring to libdir
+09-15 00:46:27.954 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_scheduler.so: deferring to libdir
+09-15 00:46:27.955 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_telemetry.so: deferring to libdir
+09-15 00:46:27.955 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_templateprocessor.so: deferring to libdir
+09-15 00:46:27.955 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_textlayoutmanager.so: deferring to libdir
+09-15 00:46:27.955 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_uimanager.so: deferring to libdir
+09-15 00:46:27.955 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_utils.so: deferring to libdir
+09-15 00:46:27.956 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactconfig.so: deferring to libdir
+09-15 00:46:27.956 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeblob.so: deferring to libdir
+09-15 00:46:27.956 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativejni.so: deferring to libdir
+09-15 00:46:27.956 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeutilsjni.so: deferring to libdir
+09-15 00:46:27.956 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactperfloggerjni.so: deferring to libdir
+09-15 00:46:27.957 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_image.so: deferring to libdir
+09-15 00:46:27.957 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_modal.so: deferring to libdir
+09-15 00:46:27.957 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_picker.so: deferring to libdir
+09-15 00:46:27.957 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_progressbar.so: deferring to libdir
+09-15 00:46:27.958 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_root.so: deferring to libdir
+09-15 00:46:27.958 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_scrollview.so: deferring to libdir
+09-15 00:46:27.958 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_slider.so: deferring to libdir
+09-15 00:46:27.958 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_switch.so: deferring to libdir
+09-15 00:46:27.959 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_text.so: deferring to libdir
+09-15 00:46:27.959 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_textinput.so: deferring to libdir
+09-15 00:46:27.959 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_unimplementedview.so: deferring to libdir
+09-15 00:46:27.959 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_view.so: deferring to libdir
+09-15 00:46:27.960 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libturbomodulejsijni.so: deferring to libdir
+09-15 00:46:27.960 32522 32522 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libyoga.so: deferring to libdir
+09-15 00:46:27.960 32522 32522 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:46:27.961 32522 32522 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:46:27.962 32522 32522 V fb-UnpackingSoSource: starting syncer worker
+09-15 00:46:27.971 32522 32522 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main (from syncer thread)
+09-15 00:46:27.972 32522 32522 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main (syncer thread started)
+09-15 00:46:27.972 32522 32522 D SoLoader: init finish: 4 SO sources prepared
+09-15 00:46:27.972 32522 32522 D SoLoader: init exiting
+09-15 00:46:28.006 32522 32522 D SoLoader: init exiting
+09-15 00:46:28.007 32522 32522 D SoLoader: About to load: libjscexecutor.so
+09-15 00:46:28.008 32522 32522 D SoLoader: libjscexecutor.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:46:28.008 32522 32522 D SoLoader: libjscexecutor.so found on /data/app/br.com.arnoldosilva.estudo_tdd-AAKWEQZP51oEk8A-cbzj-A==/lib/arm
+09-15 00:46:28.008 32522 32522 D SoLoader: Not resolving dependencies for libjscexecutor.so
+09-15 00:46:28.040 32522 32522 D JavaScriptCore.Version: 250230.2.1
+09-15 00:46:28.041 32522 32522 D SoLoader: Loaded: libjscexecutor.so
+09-15 00:46:28.046 32522 32522 D SoLoader: init exiting
+09-15 00:46:28.357 32522 32522 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (light greylist, reflection)
+09-15 00:46:28.357 32522 32522 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setHostname(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:46:28.357 32522 32522 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (light greylist, reflection)
+09-15 00:46:28.357 32522 32522 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (light greylist, reflection)
+09-15 00:46:28.374 32522 32522 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+09-15 00:46:28.374 32522 32522 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:46:28.374 32522 32522 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+09-15 00:46:28.376 32522 32522 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+09-15 00:46:28.402 32522 32522 D SensorManager: registerListener :: 0, K6DS3TR Accelerometer, 66667, 0,  
+09-15 00:46:28.442 32522 32555 D SoLoader: About to load: libfbjni.so
+09-15 00:46:28.442 32522 32555 D SoLoader: libfbjni.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:46:28.442 32522 32555 D SoLoader: libfbjni.so found on /data/app/br.com.arnoldosilva.estudo_tdd-AAKWEQZP51oEk8A-cbzj-A==/lib/arm
+09-15 00:46:28.443 32522 32555 D SoLoader: Not resolving dependencies for libfbjni.so
+09-15 00:46:28.444 32522 32555 D SoLoader: Loaded: libfbjni.so
+09-15 00:46:28.445 32522 32555 D SoLoader: About to load: libflipper.so
+09-15 00:46:28.445 32522 32555 D SoLoader: libflipper.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:46:28.445 32522 32555 D SoLoader: libflipper.so found on /data/app/br.com.arnoldosilva.estudo_tdd-AAKWEQZP51oEk8A-cbzj-A==/lib/arm
+09-15 00:46:28.445 32522 32555 D SoLoader: Not resolving dependencies for libflipper.so
+09-15 00:46:28.473 32522 32555 D SoLoader: Loaded: libflipper.so
+09-15 00:46:28.522 32522 32560 D NetworkManagementSocketTagger: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:28.523 32522 32559 D NetworkManagementSocketTagger: tagSocket(68) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:28.528 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (light greylist, reflection)
+09-15 00:46:28.528 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (light greylist, reflection)
+09-15 00:46:28.528 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (light greylist, reflection)
+09-15 00:46:28.529 32522 32559 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-J530G%20-%209%20-%20API%2028&app=br.com.arnoldosilva.estudo_tdd&clientid=DevSupportManagerImpl", will silently retry
+09-15 00:46:28.530 32522 32560 W unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+09-15 00:46:28.547 32522 32522 I flipper : flipper: FlipperClient::addPlugin Inspector
+09-15 00:46:28.547 32522 32522 I flipper : flipper: FlipperClient::addPlugin React
+09-15 00:46:28.554 32522 32522 I flipper : flipper: FlipperClient::addPlugin Databases
+09-15 00:46:28.557 32522 32522 I flipper : flipper: FlipperClient::addPlugin Preferences
+09-15 00:46:28.558 32522 32522 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+09-15 00:46:28.565 32522 32522 I flipper : flipper: FlipperClient::addPlugin Network
+09-15 00:46:28.568 32522 32522 I MonitoringInstr: No JSBridge.
+09-15 00:46:28.601 32522 32548 I UsageTrackerFacilitator: Usage tracking enabled
+09-15 00:46:28.608 32522 32548 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/br.com.arnoldosilva.estudo_tdd.test-2XFEgUqLL_0vA9igMhRp0g==/base.apk]
+09-15 00:46:28.612 32522 32548 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-15 00:46:30.548 32522 32566 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:30.552 32522 32560 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:31.499 32522 32548 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+09-15 00:46:31.499 32522 32548 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+09-15 00:46:31.499 32522 32548 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+09-15 00:46:31.503 32522 32548 I TestRunner: run started: 1 tests
+09-15 00:46:31.514 32522 32548 I TestRunner: started: runDetoxTests(com.estudo_tdd.DetoxTest)
+09-15 00:46:31.570 32522 32548 D EventInjectionStrategy: Creating injection strategy with input manager.
+09-15 00:46:31.571 32522 32548 W ilva.estudo_td: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (light greylist, reflection)
+09-15 00:46:31.571 32522 32548 W ilva.estudo_td: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (light greylist, reflection)
+09-15 00:46:31.571 32522 32548 W ilva.estudo_td: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (light greylist, reflection)
+09-15 00:46:31.610 32522 32548 W ilva.estudo_td: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (light greylist, reflection)
+09-15 00:46:31.760 32522 32522 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@97c5c69
+09-15 00:46:31.979 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: PRE_ON_CREATE
+09-15 00:46:31.990 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+09-15 00:46:31.990 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+09-15 00:46:31.990 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+09-15 00:46:31.990 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+09-15 00:46:31.990 32522 32522 W ilva.estudo_td: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+09-15 00:46:32.040 32522 32573 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:32.043 32522 32573 W unknown:ReactNative: The packager does not seem to be running as we got an IOException requesting its status: Failed to connect to localhost/127.0.0.1:8081
+09-15 00:46:32.048 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@ce68420[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+09-15 00:46:32.048 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@ce68420[]
+09-15 00:46:32.121 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+09-15 00:46:32.123 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+09-15 00:46:32.131 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: CREATED
+09-15 00:46:32.144 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: STARTED
+09-15 00:46:32.148 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: RESUMED
+09-15 00:46:32.151 32522 32522 D OpenGLRenderer: Skia GL Pipeline
+09-15 00:46:32.158 32522 32522 D EmergencyMode: [EmergencyManager] android createPackageContext successful
+09-15 00:46:32.180 32522 32522 D InputTransport: Input channel constructed: fd=82
+09-15 00:46:32.183 32522 32522 D ViewRootImpl@4615a02[MainActivity]: setView = DecorView@ce68420[MainActivity] TM=false MM=false
+09-15 00:46:32.196 32522 32576 D SoLoader: About to load: libreactnativejni.so
+09-15 00:46:32.197 32522 32576 D SoLoader: libreactnativejni.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:46:32.198 32522 32576 D SoLoader: libreactnativejni.so found on /data/app/br.com.arnoldosilva.estudo_tdd-AAKWEQZP51oEk8A-cbzj-A==/lib/arm
+09-15 00:46:32.198 32522 32576 D SoLoader: Not resolving dependencies for libreactnativejni.so
+09-15 00:46:32.200 32522 32522 W unknown:ReactNative: Packager connection already open, nooping.
+09-15 00:46:32.200 32522 32576 D SoLoader: Loaded: libreactnativejni.so
+09-15 00:46:32.226 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x6 surface={true 3459217408} changed=true
+09-15 00:46:32.235 32522 32574 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-15 00:46:32.235 32522 32574 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+09-15 00:46:32.235 32522 32574 I OpenGLRenderer: Initialized EGL, version 1.4
+09-15 00:46:32.235 32522 32574 D OpenGLRenderer: Swap behavior 2
+09-15 00:46:32.260 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:46:32.260 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4440, 0xce2f7808
+09-15 00:46:32.270 32522 32574 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: Exception in native call
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: java.lang.RuntimeException: Unable to load script. Make sure you're either running Metro (run 'react-native start') or that your bundle 'index.android.bundle' is packaged correctly for release.
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.jniLoadScriptFromAssets(Native Method)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.loadScriptFromAssets(CatalystInstanceImpl.java:232)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.bridge.JSBundleLoader$1.loadScript(JSBundleLoader.java:29)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.runJSBundle(CatalystInstanceImpl.java:261)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManager.java:1350)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.access$1100(ReactInstanceManager.java:135)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager$5.run(ReactInstanceManager.java:1053)
+09-15 00:46:32.272 32522 32576 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:46:32.320 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:46:32.321 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:46:32.328 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:46:32.329 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:32.332 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:46:32.332 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:32.332 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:46:32.332 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:46:32.332 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:46:32.353 32522 32536 D InputTransport: Input channel constructed: fd=99
+09-15 00:46:32.360 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:46:32.366 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:46:32.368 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@7341281[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:46:32.368 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@7341281[]
+09-15 00:46:32.462 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic; (light greylist, linking)
+09-15 00:46:32.541 32522 32522 D InputTransport: Input channel constructed: fd=104
+09-15 00:46:32.542 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: setView = DecorView@7341281[MainActivity] TM=false MM=false
+09-15 00:46:32.613 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x6 surface={true 3459219456} changed=true
+09-15 00:46:32.622 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:46:32.622 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4b60, 0xce2f8008
+09-15 00:46:32.650 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+09-15 00:46:32.650 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+09-15 00:46:32.650 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+09-15 00:46:32.650 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+09-15 00:46:32.650 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+09-15 00:46:32.650 32522 32522 W ilva.estudo_td: Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+09-15 00:46:32.850 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:46:32.854 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:46:32.855 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:32.855 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:46:32.855 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:46:32.857 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:46:32.858 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@7341281[MainActivity]
+09-15 00:46:32.858 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:32.863 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@7341281[MainActivity]
+09-15 00:46:32.863 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:32.863 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:46:32.864 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:46:32.864 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:46:32.866 32522 32522 D InputTransport: Input channel constructed: fd=106
+09-15 00:46:32.867 32522 32522 D InputTransport: Input channel destroyed: fd=99
+09-15 00:46:32.936 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:46:32.939 32522 32610 D NetworkManagementSocketTagger: tagSocket(99) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:32.941 32522 32560 D NetworkManagementSocketTagger: tagSocket(108) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:32.965 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:46:32.966 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:46:32.966 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:32.973 32522 32548 I Detox   : Detox server connection details: url=ws://localhost:8099, sessionId=test
+09-15 00:46:32.988 32522 32612 I DetoxDispatcher: Handling action '_init' (ID #0)...
+09-15 00:46:32.988 32522 32612 I Detox   : Connecting to server...
+09-15 00:46:32.989 32522 32612 I DetoxWSClient: At connectToServer
+09-15 00:46:33.005 32522 32614 D NetworkManagementSocketTagger: tagSocket(105) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:33.073 32522 32614 D DetoxWSClient: At onOpen
+09-15 00:46:33.073 32522 32614 I DetoxWSClient: Sending out action 'login' (ID #0)
+09-15 00:46:33.076 32522 32614 I Detox   : Connected to server!
+09-15 00:46:33.100 32522 32614 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+09-15 00:46:33.139 32522 32614 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+09-15 00:46:34.962 32522 32633 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:34.965 32522 32560 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:36.980 32522 32638 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:36.983 32522 32560 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:38.999 32522 32641 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:39.005 32522 32560 D NetworkManagementSocketTagger: tagSocket(113) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:40.792 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:46:40.809 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:46:40.810 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@21f8f0f[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:46:40.810 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@21f8f0f[]
+09-15 00:46:40.866 32522 32522 D ScrollView: initGoToTop
+09-15 00:46:40.887 32522 32522 D ScrollView: initGoToTop
+09-15 00:46:40.940 32522 32522 D InputTransport: Input channel constructed: fd=114
+09-15 00:46:40.943 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: setView = DecorView@21f8f0f[MainActivity] TM=false MM=false
+09-15 00:46:41.081 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: Relayout returned: old=[0,48][720,1280] new=[18,232][702,1096] result=0x6 surface={true 3459225600} changed=true
+09-15 00:46:41.089 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [812x992]-format:1
+09-15 00:46:41.089 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xce2f9808
+09-15 00:46:41.189 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:46:41.192 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:46:41.194 32522 32522 V InputMethodManager: Not IME target window, ignoring
+09-15 00:46:41.253 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: MSG_RESIZED: frame=[18,232][702,1096] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:46:41.259 32522 32651 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:41.259 32522 32560 D NetworkManagementSocketTagger: tagSocket(116) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:41.322 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:46:41.323 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@7341281[MainActivity]
+09-15 00:46:41.323 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:43.111 32522 32614 D DetoxWSClient: Received action 'currentStatus' (ID #1, params={})
+09-15 00:46:43.113 32522 32613 I DetoxDispatcher: Handling action 'currentStatus' (ID #1)...
+09-15 00:46:43.286 32522 32560 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:43.293 32522 32658 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:45.315 32522 32560 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:45.322 32522 32661 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:47.331 32522 32560 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:47.344 32522 32666 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:48.440 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: ViewPostIme pointer 0
+09-15 00:46:48.513 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: ViewPostIme pointer 1
+09-15 00:46:48.515 32522 32522 D AbsListView: onTouchUp() mTouchMode : 0
+09-15 00:46:48.706 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:46:48.714 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:46:48.715 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@a506532[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:46:48.716 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@a506532[]
+09-15 00:46:48.761 32522 32522 D ScrollView: initGoToTop
+09-15 00:46:48.779 32522 32522 D ScrollView: initGoToTop
+09-15 00:46:48.819 32522 32522 D InputTransport: Input channel constructed: fd=119
+09-15 00:46:48.820 32522 32522 D ViewRootImpl@c31befb[MainActivity]: setView = DecorView@a506532[MainActivity] TM=true MM=false
+09-15 00:46:48.831 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f9808 disconnect failed
+09-15 00:46:48.831 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xce2f9800
+09-15 00:46:48.831 32522 32522 D ViewRootImpl@5273d1e[MainActivity]: dispatchDetachedFromWindow
+09-15 00:46:48.846 32522 32522 D InputTransport: Input channel destroyed: fd=114
+09-15 00:46:48.915 32522 32522 D ViewRootImpl@c31befb[MainActivity]: Relayout returned: old=[0,48][720,1280] new=[18,483][702,845] result=0x7 surface={true 3459225600} changed=true
+09-15 00:46:48.920 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [812x490]-format:1
+09-15 00:46:48.920 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xce2f9808
+09-15 00:46:48.957 32522 32522 D ScrollView:  onsize change changed 
+09-15 00:46:48.964 32522 32522 D ViewRootImpl@c31befb[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:46:48.964 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@a506532[MainActivity]
+09-15 00:46:48.964 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:48.983 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@a506532[MainActivity]
+09-15 00:46:48.983 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:48.983 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:46:48.983 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:46:48.983 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:46:48.988 32522 32522 D InputTransport: Input channel constructed: fd=115
+09-15 00:46:48.988 32522 32522 D InputTransport: Input channel destroyed: fd=106
+09-15 00:46:49.037 32522 32522 D ViewRootImpl@c31befb[MainActivity]: MSG_RESIZED: frame=[18,483][702,845] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:46:49.060 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:46:49.357 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:49.373 32522 32675 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:51.387 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:51.403 32522 32678 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:53.412 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:53.429 32522 32681 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:54.951 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme pointer 0
+09-15 00:46:55.018 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme pointer 1
+09-15 00:46:55.046 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@a506532[MainActivity]
+09-15 00:46:55.046 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:55.046 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=com.android.internal.widget.EditableInputConnection@f5eafd5 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:46:55.046 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:46:55.052 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:46:55.055 32522 32522 D InputTransport: Input channel constructed: fd=114
+09-15 00:46:55.055 32522 32522 D InputTransport: Input channel destroyed: fd=115
+09-15 00:46:55.056 32522 32522 D InputMethodManager: SSI - flag : 0 Pid : 32522 view : br.com.arnoldosilva.estudo_tdd
+09-15 00:46:55.056 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@a506532[MainActivity]
+09-15 00:46:55.056 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:46:55.062 32522 32522 D Editor  : waiting for the right moment
+09-15 00:46:55.107 32522 32522 I AssistStructure: Flattened final assist data: 9972 bytes, containing 3 windows, 35 views
+09-15 00:46:55.360 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,618] vi=[0,48][0,618] or=1
+09-15 00:46:55.362 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,618] vi=[0,48][0,618] or=1
+09-15 00:46:55.394 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x1 surface={true 3459219456} changed=false
+09-15 00:46:55.447 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:46:55.555 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x1 surface={true 3459217408} changed=false
+09-15 00:46:55.579 32522 32560 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:55.583 32522 32708 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:57.605 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:57.614 32522 32712 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:59.635 32522 32560 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:46:59.643 32522 32715 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:01.660 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:01.669 32522 32728 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:02.844 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme key 1
+09-15 00:47:03.689 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:03.699 32522 32731 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:04.900 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme key 1
+09-15 00:47:05.719 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:05.724 32522 32736 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:07.743 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:07.750 32522 32741 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:08.060 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme key 1
+09-15 00:47:09.778 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:09.783 32522 32745 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:10.194 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme key 1
+09-15 00:47:11.796 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:11.800 32522 32761 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:13.811 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:13.819 32522   304 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:15.839 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:15.843 32522   323 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:17.011 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme key 1
+09-15 00:47:17.865 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:17.875 32522   328 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:19.894 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:19.910 32522   332 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:21.775 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme pointer 0
+09-15 00:47:21.875 32522 32522 D ViewRootImpl@c31befb[MainActivity]: ViewPostIme pointer 1
+09-15 00:47:21.916 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f8008 disconnect failed
+09-15 00:47:21.916 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4b60, 0xce2f8000
+09-15 00:47:21.916 32522 32522 D ViewRootImpl@d1a1e6[MainActivity]: dispatchDetachedFromWindow
+09-15 00:47:21.927 32522 32522 D InputTransport: Input channel destroyed: fd=104
+09-15 00:47:21.967 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f9808 disconnect failed
+09-15 00:47:21.967 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xce2f9800
+09-15 00:47:21.967 32522 32574 D OpenGLRenderer: endAllActiveAnimators on 0xcd54df80 (RippleDrawable) with handle 0xe19ea740
+09-15 00:47:21.968 32522 32522 D ViewRootImpl@c31befb[MainActivity]: dispatchDetachedFromWindow
+09-15 00:47:21.983 32522 32522 D InputTransport: Input channel destroyed: fd=119
+09-15 00:47:21.997 32522 32560 D NetworkManagementSocketTagger: tagSocket(104) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:22.009 32522   338 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:22.033 32522 32522 D InputTransport: Input channel constructed: fd=104
+09-15 00:47:22.034 32522 32522 D ViewRootImpl@c8dda2[PopupWindow:6482b97]: setView = android.widget.PopupWindow$PopupDecorView{659ea33 V.E...... R.....I. 0,0-0,0} TM=true MM=false
+09-15 00:47:22.035 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:22.035 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:22.035 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:22.038 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:22.038 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:22.039 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:47:22.039 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:47:22.039 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:47:22.045 32522 32522 D InputTransport: Input channel constructed: fd=106
+09-15 00:47:22.045 32522 32522 D InputTransport: Input channel destroyed: fd=114
+09-15 00:47:22.046 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:47:22.077 32522 32522 D ViewRootImpl@c8dda2[PopupWindow:6482b97]: Relayout returned: old=[0,48][720,1280] new=[0,48][720,101] result=0x7 surface={true 3459225600} changed=true
+09-15 00:47:22.080 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x53]-format:1
+09-15 00:47:22.080 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xce2f9808
+09-15 00:47:22.095 32522 32522 W IInputConnectionWrapper: performPrivateCommand on inactive InputConnection
+09-15 00:47:22.096 32522 32522 D ViewRootImpl@c8dda2[PopupWindow:6482b97]: MSG_RESIZED: frame=[0,48][720,101] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:47:22.097 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:47:22.122 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x1 surface={true 3459217408} changed=false
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: Unable to download JS bundle
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: com.facebook.react.common.DebugServerException: Could not connect to development server.
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: Try the following to fix the issue:
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: • Ensure that Metro is running
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: • Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: • Ensure Airplane Mode is disabled
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: • If you're on a physical device connected to the same machine, run 'adb reverse tcp:-1 tcp:-1' to forward requests from your device
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: • If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:-1
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: URL: http://ws//localhost:8099/index.bundle?platform=android&dev=true&minify=false&app=br.com.arnoldosilva.estudo_tdd&modulesOnly=false&runModule=true
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader$1.onFailure(BundleDownloader.java:126)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:525)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: Caused by: java.net.UnknownServiceException: CLEARTEXT communication to ws not permitted by network security policy
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:188)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+09-15 00:47:22.130 32522 32573 E unknown:ReactNative: 	... 3 more
+09-15 00:47:22.136 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f9808 disconnect failed
+09-15 00:47:22.136 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xce2f9800
+09-15 00:47:22.136 32522 32522 D ViewRootImpl@c8dda2[PopupWindow:6482b97]: dispatchDetachedFromWindow
+09-15 00:47:22.147 32522 32522 D InputTransport: Input channel destroyed: fd=104
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: Exception in native call
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: com.facebook.react.common.DebugServerException: Could not connect to development server.
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: Try the following to fix the issue:
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: • Ensure that Metro is running
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: • Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: • Ensure Airplane Mode is disabled
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: • If you're on a physical device connected to the same machine, run 'adb reverse tcp:-1 tcp:-1' to forward requests from your device
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: • If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:-1
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: URL: http://ws//localhost:8099/index.bundle?platform=android&dev=true&minify=false&app=br.com.arnoldosilva.estudo_tdd&modulesOnly=false&runModule=true
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader$1.onFailure(BundleDownloader.java:126)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:525)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: Caused by: java.net.UnknownServiceException: CLEARTEXT communication to ws not permitted by network security policy
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:188)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+09-15 00:47:22.151 32522 32522 E unknown:ReactNative: 	... 3 more
+09-15 00:47:22.156 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:47:22.163 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:47:22.165 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@608bd1c[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:47:22.167 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@608bd1c[]
+09-15 00:47:22.255 32522 32522 D InputTransport: Input channel constructed: fd=104
+09-15 00:47:22.255 32522 32522 D ViewRootImpl@1ece981[MainActivity]: setView = DecorView@608bd1c[MainActivity] TM=true MM=false
+09-15 00:47:22.305 32522 32522 D ViewRootImpl@1ece981[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x7 surface={true 3459223552} changed=true
+09-15 00:47:22.307 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:47:22.307 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xce2f9008
+09-15 00:47:22.401 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:47:22.404 32522 32522 D ViewRootImpl@1ece981[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:22.404 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@608bd1c[MainActivity]
+09-15 00:47:22.404 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:22.410 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@608bd1c[MainActivity]
+09-15 00:47:22.410 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:22.410 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:47:22.410 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:47:22.410 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:47:22.413 32522 32522 D InputTransport: Input channel constructed: fd=108
+09-15 00:47:22.413 32522 32522 D InputTransport: Input channel destroyed: fd=106
+09-15 00:47:22.438 32522 32522 D ViewRootImpl@1ece981[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:47:22.453 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:47:22.453 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:22.454 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:24.037 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:24.042 32522   341 D NetworkManagementSocketTagger: tagSocket(107) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:26.069 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:26.077 32522   345 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:28.098 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:28.104 32522   349 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:30.126 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:30.137 32522   352 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:32.157 32522 32560 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:32.169 32522   355 D NetworkManagementSocketTagger: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:33.594 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:47:33.620 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:47:33.622 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@cccbe7b[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:47:33.622 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@cccbe7b[]
+09-15 00:47:33.665 32522 32522 D ScrollView: initGoToTop
+09-15 00:47:33.685 32522 32522 D ScrollView: initGoToTop
+09-15 00:47:33.734 32522 32522 D InputTransport: Input channel constructed: fd=107
+09-15 00:47:33.735 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: setView = DecorView@cccbe7b[MainActivity] TM=true MM=false
+09-15 00:47:33.804 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: Relayout returned: old=[0,48][720,1280] new=[18,232][702,1096] result=0x7 surface={true 3459219456} changed=true
+09-15 00:47:33.807 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [812x992]-format:1
+09-15 00:47:33.808 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xcd38c440, 0xce2f8008
+09-15 00:47:33.878 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:47:33.880 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:33.897 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: MSG_RESIZED: frame=[18,232][702,1096] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:47:33.957 32522 32522 D ViewRootImpl@1ece981[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:47:33.958 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@608bd1c[MainActivity]
+09-15 00:47:33.958 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:34.186 32522 32560 D NetworkManagementSocketTagger: tagSocket(117) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:34.197 32522   358 D NetworkManagementSocketTagger: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:36.215 32522 32560 D NetworkManagementSocketTagger: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:36.227 32522   361 D NetworkManagementSocketTagger: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:36.380 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: ViewPostIme pointer 0
+09-15 00:47:36.480 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: ViewPostIme pointer 1
+09-15 00:47:36.482 32522 32522 D AbsListView: onTouchUp() mTouchMode : 0
+09-15 00:47:36.620 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f8008 disconnect failed
+09-15 00:47:36.620 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xcd38c440, 0xce2f8000
+09-15 00:47:36.620 32522 32574 D OpenGLRenderer: endAllActiveAnimators on 0xce3d0480 (AlertController$RecycleListView) with handle 0xe19eaed0
+09-15 00:47:36.620 32522 32522 D ViewRootImpl@e078eb0[MainActivity]: dispatchDetachedFromWindow
+09-15 00:47:36.633 32522 32522 D InputTransport: Input channel destroyed: fd=107
+09-15 00:47:36.641 32522 32522 D SensorManager: unregisterListener ::   
+09-15 00:47:36.651 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f9008 disconnect failed
+09-15 00:47:36.651 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xce2f9000
+09-15 00:47:36.651 32522 32522 D ViewRootImpl@1ece981[MainActivity]: dispatchDetachedFromWindow
+09-15 00:47:36.661 32522 32522 D InputTransport: Input channel destroyed: fd=104
+09-15 00:47:36.663 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: PAUSED
+09-15 00:47:36.663 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.664 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.680 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:47:36.680 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:47:36.680 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:47:36.680 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:36.681 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:36.682 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:47:36.682 32522 32522 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@dca3447
+09-15 00:47:36.682 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+09-15 00:47:36.695 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: PRE_ON_CREATE
+09-15 00:47:36.696 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.696 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.704 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@5941699[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+09-15 00:47:36.704 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@5941699[]
+09-15 00:47:36.887 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: CREATED
+09-15 00:47:36.887 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.887 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.897 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: STARTED
+09-15 00:47:36.897 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.897 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.899 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: RESUMED
+09-15 00:47:36.899 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.899 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:36.912 32522 32522 D InputTransport: Input channel constructed: fd=102
+09-15 00:47:36.913 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: setView = DecorView@5941699[DevSettingsActivity] TM=true MM=false
+09-15 00:47:36.962 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x7 surface={true 3909832704} changed=true
+09-15 00:47:36.968 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:47:36.968 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xe90b5008
+09-15 00:47:37.233 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:47:37.283 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:47:37.283 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:37.283 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@5941699[DevSettingsActivity]
+09-15 00:47:37.284 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:37.291 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@5941699[DevSettingsActivity]
+09-15 00:47:37.291 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:37.291 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:47:37.291 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:47:37.291 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:47:37.313 32522 32522 D InputTransport: Input channel constructed: fd=106
+09-15 00:47:37.313 32522 32522 D InputTransport: Input channel destroyed: fd=108
+09-15 00:47:37.634 32522 32574 W libEGL  : EGLNativeWindowType 0xce2f7808 disconnect failed
+09-15 00:47:37.634 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4440, 0xce2f7800
+09-15 00:47:37.645 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x5 surface={false 0} changed=true
+09-15 00:47:37.647 32522 32522 D ViewRootImpl@4615a02[MainActivity]: stopped(true) old=false
+09-15 00:47:37.650 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: STOPPED
+09-15 00:47:37.650 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:37.650 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:38.234 32522 32560 D NetworkManagementSocketTagger: tagSocket(96) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:40.264 32522 32560 D NetworkManagementSocketTagger: tagSocket(96) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:42.294 32522 32560 D NetworkManagementSocketTagger: tagSocket(96) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:43.866 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: ViewPostIme pointer 0
+09-15 00:47:43.963 32522 32522 D AbsListView: reportScrollStateChange() newState : 1
+09-15 00:47:44.313 32522 32560 D NetworkManagementSocketTagger: tagSocket(96) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:44.875 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: ViewPostIme pointer 1
+09-15 00:47:44.876 32522 32522 D AbsListView: onTouchUp() mTouchMode : 3
+09-15 00:47:44.876 32522 32522 D AbsListView: onTouchUp() TOUCH_MODE_SCROLL initialVelocity : 0
+09-15 00:47:44.876 32522 32522 D AbsListView: reportScrollStateChange() newState : 0
+09-15 00:47:46.342 32522 32560 D NetworkManagementSocketTagger: tagSocket(96) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:48.371 32522 32560 D NetworkManagementSocketTagger: tagSocket(96) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:49.135 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: ViewPostIme key 0
+09-15 00:47:49.223 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: ViewPostIme key 1
+09-15 00:47:49.232 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: PAUSED
+09-15 00:47:49.232 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.233 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.254 32522 32522 D ViewRootImpl@4615a02[MainActivity]: stopped(false) old=true
+09-15 00:47:49.254 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: RESTARTED
+09-15 00:47:49.254 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.254 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.256 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: STARTED
+09-15 00:47:49.256 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.257 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.258 32522 32522 D ViewRootImpl@4615a02[MainActivity]: stopped(false) old=false
+09-15 00:47:49.262 32522 32522 D SensorManager: registerListener :: 0, K6DS3TR Accelerometer, 66667, 0,  
+09-15 00:47:49.264 32522 32522 D LifecycleMonitor: Lifecycle status change: com.estudo_tdd.MainActivity@b5323fa in: RESUMED
+09-15 00:47:49.265 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.265 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.268 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:47:49.268 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@5941699[DevSettingsActivity]
+09-15 00:47:49.269 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:49.279 32522   387 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://ws://localhost:8099/message?device=SM-J530G%20-%209%20-%20API%2028&app=br.com.arnoldosilva.estudo_tdd&clientid=DevSupportManagerImpl", will silently retry
+09-15 00:47:49.290 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x7 surface={true 3459217408} changed=true
+09-15 00:47:49.293 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:47:49.294 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xc89c1de0, 0xce2f7808
+09-15 00:47:49.297 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:49.298 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:49.298 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:49.299 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:49.300 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:49.300 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:47:49.300 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:47:49.300 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:47:49.302 32522 32522 D InputTransport: Input channel constructed: fd=113
+09-15 00:47:49.303 32522 32522 D InputTransport: Input channel destroyed: fd=106
+09-15 00:47:49.670 32522 32574 W libEGL  : EGLNativeWindowType 0xe90b5008 disconnect failed
+09-15 00:47:49.670 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xe90b5000
+09-15 00:47:49.687 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x5 surface={false 0} changed=true
+09-15 00:47:49.689 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: stopped(true) old=false
+09-15 00:47:49.690 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: STOPPED
+09-15 00:47:49.690 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.690 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.695 32522 32522 D LifecycleMonitor: Lifecycle status change: com.facebook.react.devsupport.DevSettingsActivity@c0a4212 in: DESTROYED
+09-15 00:47:49.695 32522 32522 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.695 32522 32522 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@48a7386
+09-15 00:47:49.716 32522 32522 D ViewRootImpl@a63c03d[DevSettingsActivity]: dispatchDetachedFromWindow
+09-15 00:47:49.724 32522 32522 D InputTransport: Input channel destroyed: fd=102
+09-15 00:47:50.406 32522 32560 D NetworkManagementSocketTagger: tagSocket(58) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:52.434 32522 32560 D NetworkManagementSocketTagger: tagSocket(58) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:54.463 32522 32560 D NetworkManagementSocketTagger: tagSocket(58) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:54.861 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:47:54.890 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:47:54.892 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@8005eef[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:47:54.892 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@8005eef[]
+09-15 00:47:54.932 32522 32522 D ScrollView: initGoToTop
+09-15 00:47:54.949 32522 32522 D ScrollView: initGoToTop
+09-15 00:47:54.998 32522 32522 D InputTransport: Input channel constructed: fd=102
+09-15 00:47:54.999 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: setView = DecorView@8005eef[MainActivity] TM=true MM=false
+09-15 00:47:55.066 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: Relayout returned: old=[0,48][720,1280] new=[18,232][702,1096] result=0x7 surface={true 3444975616} changed=true
+09-15 00:47:55.070 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [812x992]-format:1
+09-15 00:47:55.070 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xcd562808
+09-15 00:47:55.121 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:47:55.123 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:55.138 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: MSG_RESIZED: frame=[18,232][702,1096] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:47:55.171 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:47:55.172 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:47:55.172 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:56.493 32522 32560 D NetworkManagementSocketTagger: tagSocket(103) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:57.232 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: ViewPostIme pointer 0
+09-15 00:47:57.298 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: ViewPostIme pointer 1
+09-15 00:47:57.299 32522 32522 D AbsListView: onTouchUp() mTouchMode : 0
+09-15 00:47:57.399 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:47:57.406 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:47:57.409 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@1741956[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:47:57.409 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@1741956[]
+09-15 00:47:57.442 32522 32522 D ScrollView: initGoToTop
+09-15 00:47:57.459 32522 32522 D ScrollView: initGoToTop
+09-15 00:47:57.497 32522 32522 D InputTransport: Input channel constructed: fd=104
+09-15 00:47:57.498 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: setView = DecorView@1741956[MainActivity] TM=true MM=false
+09-15 00:47:57.515 32522 32574 W libEGL  : EGLNativeWindowType 0xcd562808 disconnect failed
+09-15 00:47:57.515 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xcd562800
+09-15 00:47:57.515 32522 32574 D OpenGLRenderer: endAllActiveAnimators on 0xcd387280 (AlertController$RecycleListView) with handle 0xe19eab60
+09-15 00:47:57.515 32522 32522 D ViewRootImpl@6eedb32[MainActivity]: dispatchDetachedFromWindow
+09-15 00:47:57.533 32522 32522 D InputTransport: Input channel destroyed: fd=102
+09-15 00:47:57.587 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: Relayout returned: old=[0,48][720,1280] new=[18,483][702,845] result=0x7 surface={true 3444975616} changed=true
+09-15 00:47:57.590 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [812x490]-format:1
+09-15 00:47:57.590 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xcd562808
+09-15 00:47:57.611 32522 32522 D ScrollView:  onsize change changed 
+09-15 00:47:57.614 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:47:57.615 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@1741956[MainActivity]
+09-15 00:47:57.615 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:57.620 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@1741956[MainActivity]
+09-15 00:47:57.620 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:57.620 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:47:57.621 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:47:57.621 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:47:57.624 32522 32522 D InputTransport: Input channel constructed: fd=103
+09-15 00:47:57.624 32522 32522 D InputTransport: Input channel destroyed: fd=113
+09-15 00:47:57.644 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: MSG_RESIZED: frame=[18,483][702,845] ci=[0,0][0,0] vi=[0,0][0,0] or=1
+09-15 00:47:57.664 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:47:58.528 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:47:59.052 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: ViewPostIme pointer 0
+09-15 00:47:59.135 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: ViewPostIme pointer 1
+09-15 00:47:59.156 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@1741956[MainActivity]
+09-15 00:47:59.156 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:59.156 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=com.android.internal.widget.EditableInputConnection@3e528c mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:47:59.157 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:47:59.165 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:47:59.168 32522 32522 D InputTransport: Input channel constructed: fd=106
+09-15 00:47:59.168 32522 32522 D InputTransport: Input channel destroyed: fd=103
+09-15 00:47:59.168 32522 32522 D InputMethodManager: SSI - flag : 0 Pid : 32522 view : br.com.arnoldosilva.estudo_tdd
+09-15 00:47:59.169 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@1741956[MainActivity]
+09-15 00:47:59.169 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:47:59.172 32522 32522 D Editor  : waiting for the right moment
+09-15 00:47:59.193 32522 32522 I AssistStructure: Flattened final assist data: 2988 bytes, containing 2 windows, 10 views
+09-15 00:47:59.330 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,618] vi=[0,48][0,618] or=1
+09-15 00:47:59.359 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x1 surface={true 3459217408} changed=false
+09-15 00:48:00.546 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:02.562 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:04.586 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:05.974 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: ViewPostIme key 1
+09-15 00:48:06.616 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:08.636 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:10.223 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: ViewPostIme pointer 0
+09-15 00:48:10.331 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: ViewPostIme pointer 1
+09-15 00:48:10.363 32522 32573 D NetworkManagementSocketTagger: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:10.376 32522 32574 W libEGL  : EGLNativeWindowType 0xcd562808 disconnect failed
+09-15 00:48:10.376 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xcd562800
+09-15 00:48:10.376 32522 32574 D OpenGLRenderer: endAllActiveAnimators on 0xcecb5b80 (RippleDrawable) with handle 0xc89da270
+09-15 00:48:10.376 32522 32522 D ViewRootImpl@7b800cf[MainActivity]: dispatchDetachedFromWindow
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: Could not parse DebugServerException from: Upgrade Required
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: org.json.JSONException: Value Upgrade of type java.lang.String cannot be converted to JSONObject
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at org.json.JSON.typeMismatch(JSON.java:112)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at org.json.JSONObject.<init>(JSONObject.java:163)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at org.json.JSONObject.<init>(JSONObject.java:176)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at com.facebook.react.common.DebugServerException.parse(DebugServerException.java:76)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader.processBundleResult(BundleDownloader.java:251)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader.access$200(BundleDownloader.java:34)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader$1.onResponse(BundleDownloader.java:151)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-15 00:48:10.384 32522 32573 W unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: Unable to download JS bundle
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: com.facebook.react.common.DebugServerException: The development server returned response error code: 426
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: URL: http://localhost:8099/index.bundle?platform=android&dev=true&minify=false&app=br.com.arnoldosilva.estudo_tdd&modulesOnly=false&runModule=true
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: Body:
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: Upgrade Required
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader.processBundleResult(BundleDownloader.java:264)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader.access$200(BundleDownloader.java:34)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader$1.onResponse(BundleDownloader.java:151)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-15 00:48:10.385 32522 32573 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:48:10.388 32522 32522 D InputTransport: Input channel destroyed: fd=104
+09-15 00:48:10.416 32522 32522 D InputTransport: Input channel constructed: fd=102
+09-15 00:48:10.416 32522 32522 D ViewRootImpl@5fa8a7[PopupWindow:b0d42a8]: setView = android.widget.PopupWindow$PopupDecorView{647e154 V.E...... R.....I. 0,0-0,0} TM=true MM=false
+09-15 00:48:10.438 32522 32522 D ViewRootImpl@5fa8a7[PopupWindow:b0d42a8]: Relayout returned: old=[0,48][720,1280] new=[0,48][720,101] result=0x7 surface={true 3444975616} changed=true
+09-15 00:48:10.440 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x53]-format:1
+09-15 00:48:10.440 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xcd562808
+09-15 00:48:10.447 32522 32574 W libEGL  : EGLNativeWindowType 0xcd562808 disconnect failed
+09-15 00:48:10.447 32522 32574 D OpenGLRenderer: eglDestroySurface = 0xe19d4d40, 0xcd562800
+09-15 00:48:10.447 32522 32522 D ViewRootImpl@5fa8a7[PopupWindow:b0d42a8]: dispatchDetachedFromWindow
+09-15 00:48:10.459 32522 32522 D InputTransport: Input channel destroyed: fd=102
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: Exception in native call
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: com.facebook.react.common.DebugServerException: The development server returned response error code: 426
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: URL: http://localhost:8099/index.bundle?platform=android&dev=true&minify=false&app=br.com.arnoldosilva.estudo_tdd&modulesOnly=false&runModule=true
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: Body:
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: Upgrade Required
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader.processBundleResult(BundleDownloader.java:264)
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader.access$200(BundleDownloader.java:34)
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at com.facebook.react.devsupport.BundleDownloader$1.onResponse(BundleDownloader.java:151)
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-15 00:48:10.462 32522 32522 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:764)
+09-15 00:48:10.462 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:48:10.462 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:48:10.463 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:48:10.465 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:48:10.465 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:48:10.465 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:48:10.465 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:48:10.465 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:48:10.470 32522 32522 D InputTransport: Input channel constructed: fd=102
+09-15 00:48:10.470 32522 32522 D InputTransport: Input channel destroyed: fd=106
+09-15 00:48:10.471 32522 32522 E ViewRootImpl: sendUserActionEvent() returned.
+09-15 00:48:10.473 32522 32522 D Dialog  : mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+09-15 00:48:10.484 32522 32522 I DecorView: mWindow.mActivityCurrentConfig is null.
+09-15 00:48:10.488 32522 32522 I MultiWindowDecorSupport: updateCaptionType >> DecorView@7542843[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+09-15 00:48:10.489 32522 32522 D MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@7542843[]
+09-15 00:48:10.571 32522 32522 D InputTransport: Input channel constructed: fd=103
+09-15 00:48:10.572 32522 32522 D ViewRootImpl@2e90214[MainActivity]: setView = DecorView@7542843[MainActivity] TM=true MM=false
+09-15 00:48:10.573 32522 32522 W IInputConnectionWrapper: performPrivateCommand on inactive InputConnection
+09-15 00:48:10.573 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:48:10.616 32522 32522 D ViewRootImpl@2e90214[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x7 surface={true 3444523008} changed=true
+09-15 00:48:10.620 32522 32574 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+09-15 00:48:10.620 32522 32574 D OpenGLRenderer: eglCreateWindowSurface = 0xe19d4d40, 0xcd4f4008
+09-15 00:48:10.719 32522 32522 D AbsListView:  in onLayout changed 
+09-15 00:48:10.731 32522 32522 D ViewRootImpl@4615a02[MainActivity]: Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x1 surface={true 3459217408} changed=false
+09-15 00:48:10.736 32522 32522 D ViewRootImpl@2e90214[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+09-15 00:48:10.736 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@7542843[MainActivity]
+09-15 00:48:10.737 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:48:10.741 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@7542843[MainActivity]
+09-15 00:48:10.741 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:48:10.741 32522 32522 V InputMethodManager: Starting input: tba=br.com.arnoldosilva.estudo_tdd ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+09-15 00:48:10.741 32522 32522 D InputMethodManager: startInputInner - Id : 0
+09-15 00:48:10.741 32522 32522 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+09-15 00:48:10.744 32522 32522 D InputTransport: Input channel constructed: fd=110
+09-15 00:48:10.744 32522 32522 D InputTransport: Input channel destroyed: fd=102
+09-15 00:48:10.765 32522 32522 D ViewRootImpl@2e90214[MainActivity]: MSG_RESIZED: frame=[0,0][720,1280] ci=[0,48][0,0] vi=[0,48][0,0] or=1
+09-15 00:48:10.776 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:10.781 32522 32522 D ViewRootImpl@4615a02[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+09-15 00:48:10.781 32522 32522 D InputMethodManager: prepareNavigationBarInfo() DecorView@ce68420[MainActivity]
+09-15 00:48:10.781 32522 32522 D InputMethodManager: getNavigationBarColor() -855310
+09-15 00:48:12.802 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:14.826 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:16.857 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:18.884 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:20.910 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+09-15 00:48:22.938 32522 32560 D NetworkManagementSocketTagger: tagSocket(102) with statsTag=0xffffffff, statsUid=-1

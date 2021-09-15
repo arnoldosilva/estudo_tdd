@@ -1,0 +1,579 @@
+--------- beginning of main
+09-14 23:17:26.659 27726 27726 E Zygote  : isWhitelistProcess - Process is Whitelisted
+09-14 23:17:26.660 27726 27726 E Zygote  : accessInfo : 1
+09-14 23:17:26.670 27726 27726 I com.estudo_tdd: Late-enabling -Xcheck:jni
+--------- beginning of system
+09-14 23:17:26.870 27726 27726 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.estudo_tdd]: armeabi-v7a, null instrumentation[com.estudo_tdd.test]: null, null
+09-14 23:17:28.224 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:28.933 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:28.937 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:29.520 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:29.546 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:30.231 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:30.235 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:30.854 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:30.884 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:31.467 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:31.472 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:32.045 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:32.052 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:32.649 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:32.652 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:33.234 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:33.246 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:33.825 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:33.827 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:34.396 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:34.401 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:34.981 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:34.984 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:35.564 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:35.567 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:36.138 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:36.143 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:36.728 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:36.745 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:37.327 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:37.451 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:38.051 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:38.056 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:38.655 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:38.659 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:39.326 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:39.330 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:39.924 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:39.927 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:40.468 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:40.472 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:41.040 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:41.041 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:41.614 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:41.617 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:42.207 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:42.214 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:42.755 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:42.757 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:43.283 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:43.285 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:43.812 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:43.815 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:44.341 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:44.343 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:44.871 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:44.879 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:45.402 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:45.406 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:45.927 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:45.932 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:46.460 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:46.461 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:47.009 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:47.012 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:47.551 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:47.553 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:48.073 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:48.075 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:48.597 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:48.598 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:49.120 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:49.122 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:49.645 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:49.651 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:50.202 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:50.207 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:50.787 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:50.790 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:51.325 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:51.327 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:51.860 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:51.865 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:52.392 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:52.394 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:52.928 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:52.930 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:53.457 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:53.463 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:53.986 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:53.989 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:54.513 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:54.515 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:55.047 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:55.049 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:55.583 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:55.590 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:56.115 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:56.117 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:56.641 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:56.644 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:57.184 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:57.186 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:57.722 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:57.724 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:58.261 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:58.263 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:58.790 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:58.791 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:59.315 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:59.318 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:59.841 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:17:59.843 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:00.372 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:00.380 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:00.912 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:00.913 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:01.436 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:01.438 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:01.962 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:01.966 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:02.487 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:02.488 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:03.023 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:03.025 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:03.560 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:03.562 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:04.086 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:04.087 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:04.608 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:04.610 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:05.133 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:05.136 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:05.661 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:05.663 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:06.194 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:06.196 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:06.721 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:06.724 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:07.260 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:07.262 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:07.808 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:07.813 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:08.371 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:08.373 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:08.965 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:08.979 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:09.527 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:09.530 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:10.053 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:10.055 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:10.579 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:10.583 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:11.147 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:11.152 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:11.678 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:11.682 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:12.215 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:12.219 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:12.741 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:12.743 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:13.264 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:13.266 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:13.789 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:13.791 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:14.333 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:14.339 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:14.911 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:14.912 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:15.436 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:15.438 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:15.960 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:15.962 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:16.485 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:16.487 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:17.015 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:17.018 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:17.548 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:17.550 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:18.071 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:18.074 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:18.596 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:18.598 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:19.120 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:19.122 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:19.645 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:19.647 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:20.213 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:20.225 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:20.753 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:20.754 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:21.282 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:21.284 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:21.851 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:21.853 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:22.375 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:22.377 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:22.919 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:22.922 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:23.468 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:23.470 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:23.994 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:23.996 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:24.516 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:24.519 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:25.040 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:25.041 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:25.589 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:25.592 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:26.164 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:26.166 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:26.688 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:26.690 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:27.219 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:27.221 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:27.747 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:27.750 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:28.271 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:28.273 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:28.818 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:28.824 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:29.410 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:29.413 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:29.934 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:29.936 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:30.458 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:30.459 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:30.982 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:30.984 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:31.508 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:31.510 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:32.040 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:32.045 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:32.580 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:32.583 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:33.105 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:33.107 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:33.629 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:33.631 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:34.153 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:34.157 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:34.679 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:34.680 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:35.235 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:35.266 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:35.817 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:35.819 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:36.346 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:36.348 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:36.873 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:36.876 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:37.403 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:37.404 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:37.948 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:37.952 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:38.534 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:38.536 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:39.057 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:39.059 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:39.581 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:39.583 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:40.107 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:40.109 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:40.678 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:40.680 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:41.243 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:41.246 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:41.812 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:41.814 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:42.339 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:42.341 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:42.868 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:42.870 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:43.397 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:43.398 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:43.948 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:43.958 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:44.552 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:44.555 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:45.076 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:45.078 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:45.600 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:45.602 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:46.129 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:46.130 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:46.652 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:46.655 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:47.219 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:47.230 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:47.768 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:47.770 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:48.291 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:48.292 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:48.814 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:48.816 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:49.337 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:49.339 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:49.861 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:49.863 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:50.388 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:50.390 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:50.958 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:50.960 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:51.480 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:51.482 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:52.005 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:52.007 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:52.529 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:52.530 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:53.056 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:53.058 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:53.059 27726 27850 I com.estudo_tdd: Waiting for a blocking GC ProfileSaver
+09-14 23:18:53.065 27726 27850 I com.estudo_tdd: WaitForGcToComplete blocked ProfileSaver on HeapTrim for 5.799ms
+09-14 23:18:53.644 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:53.646 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:54.166 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:54.168 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:54.689 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:54.691 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:55.216 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:55.217 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:55.738 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:55.740 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:56.269 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:56.271 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:56.847 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:56.849 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:57.380 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:57.383 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:57.959 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:57.961 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:58.486 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:58.490 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:59.012 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:59.014 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:59.560 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:18:59.566 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:00.137 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:00.140 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:00.663 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:00.666 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:01.187 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:01.189 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:01.709 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:01.710 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:02.232 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:02.233 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:02.778 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:02.783 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:03.359 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:03.360 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:03.883 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:03.885 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:04.408 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:04.413 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:04.934 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:04.936 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:05.459 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:05.461 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:05.985 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:05.995 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:06.554 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:06.556 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:07.163 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:07.170 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:07.736 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:07.738 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:08.301 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:-2)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:453)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.createPackageInfo(java.lang.String) (ClassPathPackageInfoSource.java:93)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.access$000(android.test.ClassPathPackageInfoSource, java.lang.String) (ClassPathPackageInfoSource.java:37)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource$1.load(java.lang.String) (ClassPathPackageInfoSource.java:50)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Object android.test.ClassPathPackageInfoSource$1.load(java.lang.Object) (ClassPathPackageInfoSource.java:47)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Object android.test.SimpleCache.get(java.lang.Object) (SimpleCache.java:32)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages() (ClassPathPackageInfoSource.java:230)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(java.util.Set) (ClassPathPackageInfoSource.java:243)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive() (ClassPathPackageInfoSource.java:237)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(android.test.ClassPathPackageInfoSource$ClassPathPackageInfo) (ClassPathPackageInfoSource.java:214)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(java.lang.String) (ClassPathPackageInfoSource.java:77)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.List android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(java.lang.String) (TestGrouping.java:134)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.test.suitebuilder.TestGrouping.addPackagesRecursive(java.lang.String[]) (TestGrouping.java:110)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.suitebuilder.TestSuiteBuilder android.test.suitebuilder.TestSuiteBuilder.includePackages(java.lang.String[]) (TestSuiteBuilder.java:102)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.test.InstrumentationTestRunner.onCreate(android.os.Bundle) (InstrumentationTestRunner.java:377)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:6391)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread.access$1300(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:248)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1830)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.os.Looper.loop() (Looper.java:216)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7266)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:494)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:975)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk", zip file "/data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/lib/arm, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/lib/arm, /data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk!/lib/armeabi-v7a, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:-2)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:453)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.createPackageInfo(java.lang.String) (ClassPathPackageInfoSource.java:93)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.access$000(android.test.ClassPathPackageInfoSource, java.lang.String) (ClassPathPackageInfoSource.java:37)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource$1.load(java.lang.String) (ClassPathPackageInfoSource.java:50)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Object android.test.ClassPathPackageInfoSource$1.load(java.lang.Object) (ClassPathPackageInfoSource.java:47)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Object android.test.SimpleCache.get(java.lang.Object) (SimpleCache.java:32)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages() (ClassPathPackageInfoSource.java:230)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(java.util.Set) (ClassPathPackageInfoSource.java:243)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive() (ClassPathPackageInfoSource.java:237)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(android.test.ClassPathPackageInfoSource$ClassPathPackageInfo) (ClassPathPackageInfoSource.java:214)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.Set android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(java.lang.String) (ClassPathPackageInfoSource.java:77)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.util.List android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(java.lang.String) (TestGrouping.java:134)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.test.suitebuilder.TestGrouping.addPackagesRecursive(java.lang.String[]) (TestGrouping.java:110)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at android.test.suitebuilder.TestSuiteBuilder android.test.suitebuilder.TestSuiteBuilder.includePackages(java.lang.String[]) (TestSuiteBuilder.java:102)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.test.InstrumentationTestRunner.onCreate(android.os.Bundle) (InstrumentationTestRunner.java:377)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:6391)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread.access$1300(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:248)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1830)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.os.Looper.loop() (Looper.java:216)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7266)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:494)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:975)
+09-14 23:19:08.307 27726 27726 I com.estudo_tdd: 
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: Cannot load class. Make sure it is in your apk. Class name: 'com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin'. Message: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.Class.classForName(Native Method)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.Class.forName(Class.java:453)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:93)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:37)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.SimpleCache.get(SimpleCache.java:32)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages(ClassPathPackageInfoSource.java:230)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfoSource.java:243)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:237)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(ClassPathPackageInfoSource.java:214)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:77)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:134)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:110)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:377)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6391)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.access$1300(ActivityThread.java:248)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1830)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.os.Looper.loop(Looper.java:216)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.main(ActivityThread.java:7266)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.reflect.Method.invoke(Native Method)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk", zip file "/data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/lib/arm, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/lib/arm, /data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk!/lib/armeabi-v7a, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:19:08.320 27726 27726 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: (Throwable with no stack trace)
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk", zip file "/data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/lib/arm, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/lib/arm, /data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk!/lib/armeabi-v7a, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: (Throwable with no stack trace)
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: 
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.FrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: (Throwable with no stack trace)
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk", zip file "/data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/lib/arm, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/lib/arm, /data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk!/lib/armeabi-v7a, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: (Throwable with no stack trace)
+09-14 23:19:08.320 27726 27726 I com.estudo_tdd: 
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: Cannot load class. Make sure it is in your apk. Class name: 'com.facebook.imagepipeline.stetho.FrescoStethoPlugin'. Message: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.Class.classForName(Native Method)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.Class.forName(Class.java:453)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:93)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:37)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.SimpleCache.get(SimpleCache.java:32)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages(ClassPathPackageInfoSource.java:230)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfoSource.java:243)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:237)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(ClassPathPackageInfoSource.java:214)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:77)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:134)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:110)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:377)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6391)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.access$1300(ActivityThread.java:248)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1830)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.os.Looper.loop(Looper.java:216)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.main(ActivityThread.java:7266)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.reflect.Method.invoke(Native Method)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk", zip file "/data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/lib/arm, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/lib/arm, /data/app/com.estudo_tdd.test-UyLyKtnOUIYmgrYCbPSEbA==/base.apk!/lib/armeabi-v7a, /data/app/com.estudo_tdd-hrWh_pAAF4wnGh0fcTzQXQ==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-14 23:19:08.329 27726 27726 W ClassPathPackageInfoSource: 	... 25 more
+09-14 23:19:08.329 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:08.895 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:08.897 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:09.469 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:09.472 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:10.031 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:10.033 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:10.589 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:10.591 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:11.147 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:11.149 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:11.702 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:11.705 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:12.265 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:12.277 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:12.835 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:12.836 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:13.392 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:13.394 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:13.953 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:13.955 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:14.510 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:14.511 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:15.069 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:15.071 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:15.643 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:15.652 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:16.207 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:16.211 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:16.770 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:16.778 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:17.337 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:17.341 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:17.901 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:17.904 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:18.464 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:18.466 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:19.037 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:19.039 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:19.599 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:19.600 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:20.161 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:20.163 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:20.723 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:20.725 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:21.288 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:21.289 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:21.849 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:21.857 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:22.427 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:22.429 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:22.987 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:22.990 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:23.547 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:23.549 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:24.109 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:24.111 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:24.669 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-14 23:19:24.671 27726 27726 W com.estudo_tdd: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?

@@ -1,0 +1,148 @@
+--------- beginning of main
+09-15 00:14:38.205 18389 18389 E Zygote  : isWhitelistProcess - Process is Whitelisted
+09-15 00:14:38.206 18389 18389 E Zygote  : accessInfo : 1
+09-15 00:14:38.218 18389 18389 I ilva.estudo_td: Late-enabling -Xcheck:jni
+--------- beginning of system
+09-15 00:14:38.476 18389 18389 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[br.com.arnoldosilva.estudo_tdd]: armeabi-v7a, null instrumentation[br.com.arnoldosilva.estudo_tdd.test]: null, null
+09-15 00:14:40.237 18389 18389 W ilva.estudo_td: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:14:40.238 18389 18389 W ilva.estudo_td: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+09-15 00:14:40.256 18389 18389 I MonitoringInstr: Instrumentation started!
+09-15 00:14:40.314 18389 18389 D SoLoader: init start
+09-15 00:14:40.316 18389 18389 D SoLoader: adding system library source: /vendor/lib
+09-15 00:14:40.317 18389 18389 D SoLoader: adding system library source: /system/lib
+09-15 00:14:40.318 18389 18389 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/br.com.arnoldosilva.estudo_tdd-NrF84w_dPJHFOov495LBxA==/lib/arm flags = 0]
+09-15 00:14:40.323 18389 18389 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/br.com.arnoldosilva.estudo_tdd/lib-main flags = 1]
+09-15 00:14:40.323 18389 18389 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+09-15 00:14:40.323 18389 18389 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/vendor/lib flags = 2]
+09-15 00:14:40.324 18389 18389 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/br.com.arnoldosilva.estudo_tdd-NrF84w_dPJHFOov495LBxA==/lib/arm flags = 0]
+09-15 00:14:40.324 18389 18389 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/br.com.arnoldosilva.estudo_tdd/lib-main flags = 1]
+09-15 00:14:40.327 18389 18389 V fb-UnpackingSoSource: locked dso store /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:14:40.331 18389 18389 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+09-15 00:14:40.331 18389 18389 V fb-UnpackingSoSource: so store dirty: regenerating
+09-15 00:14:40.559 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libbetter.so: deferring to libdir
+09-15 00:14:40.559 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libc++_shared.so: deferring to libdir
+09-15 00:14:40.560 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent-2.1.so: deferring to libdir
+09-15 00:14:40.560 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_core-2.1.so: deferring to libdir
+09-15 00:14:40.560 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libevent_extra-2.1.so: deferring to libdir
+09-15 00:14:40.561 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfabricjni.so: deferring to libdir
+09-15 00:14:40.561 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfb.so: deferring to libdir
+09-15 00:14:40.561 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfbjni.so: deferring to libdir
+09-15 00:14:40.561 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libflipper.so: deferring to libdir
+09-15 00:14:40.562 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_futures.so: deferring to libdir
+09-15 00:14:40.562 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libfolly_json.so: deferring to libdir
+09-15 00:14:40.562 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog.so: deferring to libdir
+09-15 00:14:40.562 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libglog_init.so: deferring to libdir
+09-15 00:14:40.565 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-debug.so: deferring to libdir
+09-15 00:14:40.565 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-common-release.so: deferring to libdir
+09-15 00:14:40.565 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-debug.so: deferring to libdir
+09-15 00:14:40.566 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-executor-release.so: deferring to libdir
+09-15 00:14:40.566 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libhermes-inspector.so: deferring to libdir
+09-15 00:14:40.566 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libimagepipeline.so: deferring to libdir
+09-15 00:14:40.566 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsc.so: deferring to libdir
+09-15 00:14:40.569 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjscexecutor.so: deferring to libdir
+09-15 00:14:40.569 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsijniprofiler.so: deferring to libdir
+09-15 00:14:40.569 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libjsinspector.so: deferring to libdir
+09-15 00:14:40.569 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libmapbufferjni.so: deferring to libdir
+09-15 00:14:40.571 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-filters.so: deferring to libdir
+09-15 00:14:40.571 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libnative-imagetranscoder.so: deferring to libdir
+09-15 00:14:40.575 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_codegen_rncore.so: deferring to libdir
+09-15 00:14:40.575 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_debug.so: deferring to libdir
+09-15 00:14:40.576 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_nativemodule_core.so: deferring to libdir
+09-15 00:14:40.576 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_animations.so: deferring to libdir
+09-15 00:14:40.578 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_attributedstring.so: deferring to libdir
+09-15 00:14:40.579 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_componentregistry.so: deferring to libdir
+09-15 00:14:40.579 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_core.so: deferring to libdir
+09-15 00:14:40.579 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_debug.so: deferring to libdir
+09-15 00:14:40.579 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_graphics.so: deferring to libdir
+09-15 00:14:40.580 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_imagemanager.so: deferring to libdir
+09-15 00:14:40.580 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_leakchecker.so: deferring to libdir
+09-15 00:14:40.580 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mapbuffer.so: deferring to libdir
+09-15 00:14:40.583 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_mounting.so: deferring to libdir
+09-15 00:14:40.583 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_runtimescheduler.so: deferring to libdir
+09-15 00:14:40.583 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_scheduler.so: deferring to libdir
+09-15 00:14:40.583 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_telemetry.so: deferring to libdir
+09-15 00:14:40.584 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_templateprocessor.so: deferring to libdir
+09-15 00:14:40.584 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_textlayoutmanager.so: deferring to libdir
+09-15 00:14:40.584 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_render_uimanager.so: deferring to libdir
+09-15 00:14:40.584 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreact_utils.so: deferring to libdir
+09-15 00:14:40.584 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactconfig.so: deferring to libdir
+09-15 00:14:40.585 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeblob.so: deferring to libdir
+09-15 00:14:40.585 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativejni.so: deferring to libdir
+09-15 00:14:40.585 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactnativeutilsjni.so: deferring to libdir
+09-15 00:14:40.585 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libreactperfloggerjni.so: deferring to libdir
+09-15 00:14:40.585 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_image.so: deferring to libdir
+09-15 00:14:40.586 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_modal.so: deferring to libdir
+09-15 00:14:40.586 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_picker.so: deferring to libdir
+09-15 00:14:40.588 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_progressbar.so: deferring to libdir
+09-15 00:14:40.588 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_root.so: deferring to libdir
+09-15 00:14:40.589 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_scrollview.so: deferring to libdir
+09-15 00:14:40.589 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_slider.so: deferring to libdir
+09-15 00:14:40.589 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_switch.so: deferring to libdir
+09-15 00:14:40.589 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_text.so: deferring to libdir
+09-15 00:14:40.590 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_textinput.so: deferring to libdir
+09-15 00:14:40.590 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_unimplementedview.so: deferring to libdir
+09-15 00:14:40.590 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/librrc_view.so: deferring to libdir
+09-15 00:14:40.590 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libturbomodulejsijni.so: deferring to libdir
+09-15 00:14:40.590 18389 18389 D ApkSoSource: not allowing consideration of lib/armeabi-v7a/libyoga.so: deferring to libdir
+09-15 00:14:40.591 18389 18389 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:14:40.594 18389 18389 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+09-15 00:14:40.594 18389 18389 V fb-UnpackingSoSource: starting syncer worker
+09-15 00:14:40.604 18389 18389 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main (from syncer thread)
+09-15 00:14:40.605 18389 18389 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/br.com.arnoldosilva.estudo_tdd/lib-main (syncer thread started)
+09-15 00:14:40.605 18389 18389 D SoLoader: init finish: 4 SO sources prepared
+09-15 00:14:40.605 18389 18389 D SoLoader: init exiting
+09-15 00:14:40.638 18389 18389 D SoLoader: init exiting
+09-15 00:14:40.639 18389 18389 D SoLoader: About to load: libjscexecutor.so
+09-15 00:14:40.639 18389 18389 D SoLoader: libjscexecutor.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:14:40.640 18389 18389 D SoLoader: libjscexecutor.so found on /data/app/br.com.arnoldosilva.estudo_tdd-NrF84w_dPJHFOov495LBxA==/lib/arm
+09-15 00:14:40.640 18389 18389 D SoLoader: Not resolving dependencies for libjscexecutor.so
+09-15 00:14:40.708 18389 18389 D JavaScriptCore.Version: 250230.2.1
+09-15 00:14:40.709 18389 18389 D SoLoader: Loaded: libjscexecutor.so
+09-15 00:14:40.714 18389 18389 D SoLoader: init exiting
+09-15 00:14:41.018 18389 18389 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (light greylist, reflection)
+09-15 00:14:41.018 18389 18389 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setHostname(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:14:41.018 18389 18389 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (light greylist, reflection)
+09-15 00:14:41.018 18389 18389 W ilva.estudo_td: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (light greylist, reflection)
+09-15 00:14:41.041 18389 18389 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+09-15 00:14:41.041 18389 18389 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+09-15 00:14:41.041 18389 18389 W ilva.estudo_td: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+09-15 00:14:41.044 18389 18389 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+09-15 00:14:41.086 18389 18389 D SensorManager: registerListener :: 0, K6DS3TR Accelerometer, 66667, 0,  
+09-15 00:14:41.129 18389 18497 D SoLoader: About to load: libfbjni.so
+09-15 00:14:41.129 18389 18497 D SoLoader: libfbjni.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:14:41.130 18389 18497 D SoLoader: libfbjni.so found on /data/app/br.com.arnoldosilva.estudo_tdd-NrF84w_dPJHFOov495LBxA==/lib/arm
+09-15 00:14:41.130 18389 18497 D SoLoader: Not resolving dependencies for libfbjni.so
+09-15 00:14:41.132 18389 18497 D SoLoader: Loaded: libfbjni.so
+09-15 00:14:41.132 18389 18497 D SoLoader: About to load: libflipper.so
+09-15 00:14:41.133 18389 18497 D SoLoader: libflipper.so not found on /data/data/br.com.arnoldosilva.estudo_tdd/lib-main
+09-15 00:14:41.133 18389 18497 D SoLoader: libflipper.so found on /data/app/br.com.arnoldosilva.estudo_tdd-NrF84w_dPJHFOov495LBxA==/lib/arm
+09-15 00:14:41.133 18389 18497 D SoLoader: Not resolving dependencies for libflipper.so
+09-15 00:14:41.190 18389 18497 D SoLoader: Loaded: libflipper.so
+09-15 00:14:41.231 18389 18500 D NetworkManagementSocketTagger: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+09-15 00:14:41.231 18389 18499 D NetworkManagementSocketTagger: tagSocket(68) with statsTag=0xffffffff, statsUid=-1
+09-15 00:14:41.238 18389 18499 W unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+09-15 00:14:41.238 18389 18500 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=SM-J530G%20-%209%20-%20API%2028&app=br.com.arnoldosilva.estudo_tdd&clientid=DevSupportManagerImpl", will silently retry
+09-15 00:14:41.244 18389 18389 W ilva.estudo_td: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (light greylist, reflection)
+09-15 00:14:41.244 18389 18389 W ilva.estudo_td: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (light greylist, reflection)
+09-15 00:14:41.245 18389 18389 W ilva.estudo_td: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (light greylist, reflection)
+09-15 00:14:41.262 18389 18389 I flipper : flipper: FlipperClient::addPlugin Inspector
+09-15 00:14:41.263 18389 18389 I flipper : flipper: FlipperClient::addPlugin React
+09-15 00:14:41.268 18389 18389 I flipper : flipper: FlipperClient::addPlugin Databases
+09-15 00:14:41.271 18389 18389 I flipper : flipper: FlipperClient::addPlugin Preferences
+09-15 00:14:41.272 18389 18389 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+09-15 00:14:41.278 18389 18389 I flipper : flipper: FlipperClient::addPlugin Network
+09-15 00:14:41.282 18389 18389 I MonitoringInstr: No JSBridge.
+09-15 00:14:41.315 18389 18490 I UsageTrackerFacilitator: Usage tracking enabled
+09-15 00:14:41.322 18389 18490 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/br.com.arnoldosilva.estudo_tdd.test-QX2CbO7_g9czdcCFxtTe7w==/base.apk]
+09-15 00:14:41.326 18389 18490 W ilva.estudo_td: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-15 00:14:43.256 18389 18499 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:14:43.261 18389 18512 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:14:44.144 18389 18490 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+09-15 00:14:44.145 18389 18490 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+09-15 00:14:44.145 18389 18490 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+09-15 00:14:44.146 18389 18490 I TestRunner: run started: 1 tests
+09-15 00:14:44.147 18389 18490 I TestRunner: run finished: 0 tests, 0 failed, 0 ignored
+09-15 00:14:44.163 18389 18490 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-15 00:14:44.163 18389 18490 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-15 00:14:44.216 18389 18490 D NetworkManagementSocketTagger: tagSocket(78) with statsTag=0xffffffff, statsUid=-1
+09-15 00:14:44.978 18389 18490 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms
